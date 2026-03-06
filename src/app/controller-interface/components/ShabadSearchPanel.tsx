@@ -7,7 +7,9 @@ import { DEFAULT_SHABAD_LINES, ShabadLine } from '@/data/shabadLines';
 interface SearchResult {
   id: string;
   firstLine: string;
+  english?: string;
   ang: number;
+  lineIndex: number;
   source: string;
   author: string;
   raag: string;
@@ -31,7 +33,9 @@ const ShabadSearchPanel = ({ onShabadSelect, shabadLines = DEFAULT_SHABAD_LINES,
     {
       id: 'shabad-1',
       firstLine: 'ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ',
+      english: 'Ik-oamkkaari satinaamu karataa purakhu nirabhau niravairu akaal moorati ajoonee saibhann guraprsaadi ||',
       ang: 1,
+      lineIndex: 0,
       source: 'Sri Guru Granth Sahib Ji',
       author: 'Guru Nanak Dev Ji',
       raag: 'No Raag',
@@ -39,7 +43,9 @@ const ShabadSearchPanel = ({ onShabadSelect, shabadLines = DEFAULT_SHABAD_LINES,
     {
       id: 'shabad-2',
       firstLine: 'ਸੋ ਦਰੁ ਰਾਗੁ ਆਸਾ ਮਹਲਾ ੧',
+      english: '',
       ang: 8,
+      lineIndex: 1,
       source: 'Sri Guru Granth Sahib Ji',
       author: 'Guru Nanak Dev Ji',
       raag: 'Aasa',
@@ -47,7 +53,9 @@ const ShabadSearchPanel = ({ onShabadSelect, shabadLines = DEFAULT_SHABAD_LINES,
     {
       id: 'shabad-3',
       firstLine: 'ਸੋ ਪੁਰਖੁ ਨਿਰੰਜਨੁ ਹਰਿ ਪੁਰਖੁ ਨਿਰੰਜਨੁ',
+      english: '',
       ang: 10,
+      lineIndex: 2,
       source: 'Sri Guru Granth Sahib Ji',
       author: 'Guru Nanak Dev Ji',
       raag: 'Aasa',
@@ -55,7 +63,9 @@ const ShabadSearchPanel = ({ onShabadSelect, shabadLines = DEFAULT_SHABAD_LINES,
     {
       id: 'shabad-4',
       firstLine: 'ਆਸਾ ਮਹਲਾ ੧ ॥ ਸੋ ਦਰੁ ਤੇਰਾ ਕੇਹਾ ਸੋ ਘਰੁ',
+      english: '',
       ang: 12,
+      lineIndex: 3,
       source: 'Sri Guru Granth Sahib Ji',
       author: 'Guru Nanak Dev Ji',
       raag: 'Aasa',
@@ -63,7 +73,9 @@ const ShabadSearchPanel = ({ onShabadSelect, shabadLines = DEFAULT_SHABAD_LINES,
     {
       id: 'shabad-5',
       firstLine: 'ਜਪੁ ਜੀ ਸਾਹਿਬ ਪਉੜੀ ੧',
+      english: '',
       ang: 2,
+      lineIndex: 4,
       source: 'Sri Guru Granth Sahib Ji',
       author: 'Guru Nanak Dev Ji',
       raag: 'No Raag',
@@ -71,11 +83,14 @@ const ShabadSearchPanel = ({ onShabadSelect, shabadLines = DEFAULT_SHABAD_LINES,
   ];
 
   // Use provided shabadLines or create search results from mock data
-  const effectiveLines = shabadLines.length > 0 ? shabadLines : mockResults.map((r, i) => ({
+  const effectiveLines: ShabadLine[] = shabadLines.length > 0 ? shabadLines : mockResults.map((r) => ({
     id: r.id,
+    code: '',
     gurmukhi: r.firstLine,
+    english: r.english,
     translation: '',
     translationSource: r.source,
+    Ang: String(r.ang),
   }));
 
   // Normalize Gurmukhi text for better matching
@@ -84,6 +99,22 @@ const ShabadSearchPanel = ({ onShabadSelect, shabadLines = DEFAULT_SHABAD_LINES,
       .normalize('NFC') // Normalize Unicode to composed form
       .replace(/\s+/g, ' ') // Normalize whitespace
       .trim();
+  };
+
+  // Normalize transliteration by removing punctuation/brackets for tolerant matching.
+  const normalizeEnglish = (text: string): string => {
+    return text
+      .toLowerCase()
+      .normalize('NFC')
+      .replace(/[()]/g, '')
+      .replace(/[^a-z0-9\s]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  };
+
+  // Lenient transliteration form: reduce repeated consonants (e.g. "rr" -> "r").
+  const foldEnglishTransliteration = (text: string): string => {
+    return text.replace(/([bcdfghjklmnpqrstvwxyz])\1+/g, '$1');
   };
 
   const handleSearch = () => {
@@ -97,33 +128,76 @@ const ShabadSearchPanel = ({ onShabadSelect, shabadLines = DEFAULT_SHABAD_LINES,
           .map((line, index) => ({
             id: line.id,
             firstLine: line.gurmukhi,
-            ang: index + 1,
+            english: line.english,
+            ang: Number(line.Ang),
+            lineIndex: index,
             source: line.translationSource || 'Jap Ji Sahib',
             author: 'Guru Nanak Dev Ji',
             raag: 'No Raag',
           }))
-          .filter(result => result.ang === lineNum);
+          .filter(result => Number.isFinite(result.ang) && result.ang === lineNum);
         setResults(filtered);
       } else if (searchType === 'text' && searchText) {
         // Normalize both search text and result text for accurate Gurmukhi matching
         const normalizedSearch = normalizeGurmukhi(searchText);
+        const rawEnglishSearch = searchText.toLowerCase().trim();
+        const normalizedEnglishSearch = normalizeEnglish(searchText);
+        const foldedEnglishSearch = foldEnglishTransliteration(normalizedEnglishSearch);
+        const gurmukhiSearchWords = normalizedSearch.split(/\s+/).filter(Boolean);
+        const englishSearchWords = normalizedEnglishSearch.split(/\s+/).filter(Boolean);
+        const foldedEnglishSearchWords = foldedEnglishSearch.split(/\s+/).filter(Boolean);
         
         const filtered = effectiveLines
           .map((line, index) => ({
             id: line.id,
             firstLine: line.gurmukhi,
-            ang: index + 1,
+            english: line.english,
+            ang: Number(line.Ang),
+            lineIndex: index,
             source: line.translationSource || 'Jap Ji Sahib',
             author: 'Guru Nanak Dev Ji',
             raag: 'No Raag',
           }))
           .filter(result => {
             const normalizedResult = normalizeGurmukhi(result.firstLine);
-            
-            // Check if any word in the search query matches
-            const searchWords = normalizedSearch.split(/\s+/);
-            return searchWords.some(word => 
+            const rawEnglishResult = (result.english || '').toLowerCase();
+            const normalizedEnglishResult = normalizeEnglish(result.english || '');
+            const foldedEnglishResult = foldEnglishTransliteration(normalizedEnglishResult);
+
+            const gurmukhiMatch = gurmukhiSearchWords.some(word =>
               word.length > 0 && normalizedResult.includes(word)
+            );
+
+            const englishRawPhraseMatch =
+              rawEnglishSearch.length > 0 && rawEnglishResult.includes(rawEnglishSearch);
+
+            const englishNormalizedPhraseMatch =
+              normalizedEnglishSearch.length > 0 &&
+              normalizedEnglishResult.includes(normalizedEnglishSearch);
+
+            const englishAllWordsMatch =
+              englishSearchWords.length > 0 &&
+              englishSearchWords.every(word =>
+                word.length > 0 && normalizedEnglishResult.includes(word)
+              );
+
+            const englishFoldedPhraseMatch =
+              foldedEnglishSearch.length > 0 &&
+              foldedEnglishResult.includes(foldedEnglishSearch);
+
+            const englishFoldedAllWordsMatch =
+              foldedEnglishSearchWords.length > 0 &&
+              foldedEnglishSearchWords.every(word =>
+                word.length > 0 && foldedEnglishResult.includes(word)
+              );
+
+            return (
+              gurmukhiMatch ||
+              englishRawPhraseMatch ||
+              englishNormalizedPhraseMatch ||
+              englishAllWordsMatch ||
+              englishFoldedPhraseMatch ||
+              englishFoldedAllWordsMatch
             );
           });
         
@@ -253,17 +327,11 @@ const ShabadSearchPanel = ({ onShabadSelect, shabadLines = DEFAULT_SHABAD_LINES,
                 {results.length} {results.length === 1 ? 'Result' : 'Results'} Found
               </h3>
             </div>
-            {results.map((result, idx) => {
-              let lineIndex = 0;
-              if (searchType === 'ang') {
-                lineIndex = result.ang - 1;
-              } else {
-                lineIndex = shabadLines.findIndex(line => line.id === result.id);
-              }
+            {results.map((result) => {
               return (
                 <button
                   key={result.id}
-                  onClick={() => handleResultClick(result.id, lineIndex)}
+                  onClick={() => handleResultClick(result.id, result.lineIndex)}
                   className={`
                     w-full text-left p-4 rounded-lg border transition-smooth
                     ${
@@ -277,6 +345,9 @@ const ShabadSearchPanel = ({ onShabadSelect, shabadLines = DEFAULT_SHABAD_LINES,
                     <p className="text-base font-medium text-foreground line-clamp-2">
                       {result.firstLine}
                     </p>
+                    {result.english && (
+                      <p className="text-sm text-foreground/85 line-clamp-2">{result.english}</p>
+                    )}
                     <div className="flex items-center gap-3 text-xs text-text-secondary">
                       <span className="flex items-center gap-1">
                         <Icon name="BookOpenIcon" size={14} />

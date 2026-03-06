@@ -5,7 +5,9 @@ import { useState, useEffect } from 'react';
 interface Line {
   id: string;
   text: string;
+  english?: string;
   translation?: string;
+  Ang?: string;
 }
 
 interface DisplayState {
@@ -185,6 +187,9 @@ const DisplayContent = ({ className = '' }: DisplayContentProps) => {
         {previousLine && (
           <div className="text-center opacity-30 transition-all duration-300">
             <p className="text-3xl text-white font-gurmukhi">{previousLine.text}</p>
+            {previousLine.english && (
+              <p className="text-xl text-white/90 mt-2">{previousLine.english}</p>
+            )}
             {previousLine.translation && (
               <p className="text-xl text-white/80 mt-2">{previousLine.translation}</p>
             )}
@@ -193,9 +198,12 @@ const DisplayContent = ({ className = '' }: DisplayContentProps) => {
 
         {/* Current Line - Highlighted */}
         <div className="text-center py-8 px-6 bg-white/5 rounded-2xl border-2 border-white/20 shadow-2xl transition-all duration-300">
-          <p className="text-6xl text-white font-gurmukhi leading-relaxed mb-6">
+          <p className="text-6xl text-amber-300 font-gurmukhi leading-relaxed mb-6">
             {currentLine.text}
           </p>
+          {currentLine.english && (
+            <p className="text-3xl text-cyan-300 leading-relaxed mb-4">{currentLine.english}</p>
+          )}
           {currentLine.translation && (
             <p className="text-3xl text-white/90 leading-relaxed">{currentLine.translation}</p>
           )}
@@ -205,6 +213,9 @@ const DisplayContent = ({ className = '' }: DisplayContentProps) => {
         {nextLine && (
           <div className="text-center opacity-30 transition-all duration-300">
             <p className="text-3xl text-white font-gurmukhi">{nextLine.text}</p>
+            {nextLine.english && (
+              <p className="text-xl text-white/90 mt-2">{nextLine.english}</p>
+            )}
             {nextLine.translation && (
               <p className="text-xl text-white/80 mt-2">{nextLine.translation}</p>
             )}
@@ -214,7 +225,7 @@ const DisplayContent = ({ className = '' }: DisplayContentProps) => {
         {/* Line Counter */}
         <div className="text-center mt-8">
           <p className="text-white/40 text-lg">
-            Line {displayState.currentLineIndex + 1} of {displayState.lines.length}
+            Line {displayState.currentLineIndex + 1} of {displayState.lines.length} - Ang {currentLine.Ang || 'N/A'}
           </p>
         </div>
       </div>

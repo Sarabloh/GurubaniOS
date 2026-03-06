@@ -103,7 +103,9 @@ const ShabadContentPanel = ({
         lines: shabadLines.map(line => ({
           id: line.id,
           text: cleanGurmukhi(line.gurmukhi),
+          english: line.english,
           translation: line.translation,
+          Ang: line.Ang,
         })),
       };
       localStorage.setItem('gurbani-display-state', JSON.stringify(displayState));
@@ -440,6 +442,11 @@ const ShabadContentPanel = ({
             <p className="text-sm text-text-secondary line-clamp-1 font-gurmukhi">
               {cleanGurmukhi(previousLine.gurmukhi)}
             </p>
+            {previousLine.english && (
+              <p className="text-xs text-text-secondary/90 line-clamp-1">
+                {previousLine.english}
+              </p>
+            )}
           </div>
         )}
 
@@ -448,6 +455,9 @@ const ShabadContentPanel = ({
           <p className="text-lg font-medium text-foreground mb-2 font-gurmukhi">
             {cleanGurmukhi(currentLine.gurmukhi)}
           </p>
+          {currentLine.english && (
+            <p className="text-sm text-foreground/90 mb-2">{currentLine.english}</p>
+          )}
           <p className="text-sm text-text-secondary">{currentLine.translation}</p>
           {currentLine.translationSource && (
             <p className="text-xs text-text-secondary mt-2 opacity-75">
@@ -462,6 +472,11 @@ const ShabadContentPanel = ({
             <p className="text-sm text-text-secondary line-clamp-1 font-gurmukhi">
               {cleanGurmukhi(nextLine.gurmukhi)}
             </p>
+            {nextLine.english && (
+              <p className="text-xs text-text-secondary/90 line-clamp-1">
+                {nextLine.english}
+              </p>
+            )}
           </div>
         )}
       </div>
@@ -491,6 +506,9 @@ const ShabadContentPanel = ({
                 <p className="text-base font-gurmukhi text-foreground leading-relaxed">
                   {cleanGurmukhi(line.gurmukhi)}
                 </p>
+                {line.english && (
+                  <p className="text-sm text-foreground/90 leading-relaxed">{line.english}</p>
+                )}
                 
                 {editingLineId === line.id ? (
                   <div className="space-y-2 mt-2">
