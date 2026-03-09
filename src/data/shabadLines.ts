@@ -248,7 +248,9 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "code": "1UMU",
     "gurmukhi": "ਦੇਦਾ ਦੇ ਲੈਦੇ ਥਕਿ ਪਾਹਿ॥",
     "translation": "The Giver keeps on giving, while those who receive grow tired of receiving.",
-    "translationSource": "BOS - Baljit Singh & Preetcharan Singh"
+    "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
+    "Ang": "2",
+    "english": "The Great Giver keeps on giving, while those who receive grow weary of receiving."
   },
   {
     "id": "line-28",
