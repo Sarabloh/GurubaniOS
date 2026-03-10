@@ -8,8 +8,7 @@ export interface ShabadLine {
   english?: string;
 }
 
-export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
-  {
+export const DEFAULT_SHABAD_LINES: ShabadLine[] = [{
     "id": "line-1",
     "code": "0NVY",
     "gurmukhi": "ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ ॥",
@@ -17,8 +16,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Ik-oamkkaari satinaamu karataa purakhu nirabhau niravairu akaal moorati ajoonee saibhann guraprsaadi ||"
-  },
-  {
+  },{
     "id": "line-2",
     "code": "RBP6",
     "gurmukhi": "॥ ਜਪੁ ॥",
@@ -26,8 +24,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "|| japu ||"
-  },
-  {
+  },{
     "id": "line-3",
     "code": "J92N",
     "gurmukhi": "ਆਦਿ ਸਚੁ ਜੁਗਾਦਿ ਸਚੁ ॥",
@@ -35,8 +32,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Aadi sachu jugaadi sachu ||"
-  },
-  {
+  },{
     "id": "line-4",
     "code": "K0U6",
     "gurmukhi": "ਹੈ ਭੀ ਸਚੁ ਨਾਨਕ ਹੋਸੀ ਭੀ ਸਚੁ ॥੧॥",
@@ -44,8 +40,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Hai bhee sachu naanak hosee bhee sachu ||1||"
-  },
-  {
+  },{
     "id": "line-5",
     "code": "BL70",
     "gurmukhi": "ਸੋਚੈ ਸੋਚਿ ਨ ਹੋਵਈ ਜੇ ਸੋਚੀ ਲਖ ਵਾਰ ॥",
@@ -53,8 +48,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Sochai sochi na hovaee je sochee lakh vaar ||"
-  },
-  {
+  },{
     "id": "line-6",
     "code": "GJW9",
     "gurmukhi": "ਚੁਪੈ ਚੁਪ ਨ ਹੋਵਈ ਜੇ ਲਾਇ ਰਹਾ ਲਿਵ ਤਾਰ ॥",
@@ -62,8 +56,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Chupai chup na hovaee je laai rahaa liv taar ||"
-  },
-  {
+  },{
     "id": "line-7",
     "code": "ZERL",
     "gurmukhi": "ਭੁਖਿਆ ਭੁਖ ਨ ਉਤਰੀ ਜੇ ਬੰਨਾ ਪੁਰੀਆ ਭਾਰ ॥",
@@ -71,8 +64,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Bhukhiaa bhukh na utaree je bannaa pureeaa bhaar ||"
-  },
-  {
+  },{
     "id": "line-8",
     "code": "9MN2",
     "gurmukhi": "ਸਹਸ ਸਿਆਣਪਾ ਲਖ ਹੋਹਿ ਤ ਇਕ ਨ ਚਲੈ ਨਾਲਿ ॥",
@@ -80,8 +72,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Sahas siaa(nn)apaa lakh hohi ta ik na chalai naali ||"
-  },
-  {
+  },{
     "id": "line-9",
     "code": "MK1Q",
     "gurmukhi": "ਕਿਵ ਸਚਿਆਰਾ ਹੋਈਐ ਕਿਵ ਕੂੜੈ ਤੁਟੈ ਪਾਲਿ ॥",
@@ -89,8 +80,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Kiv sachiaaraa hoeeai kiv koo(rr)ai tutai paali ||"
-  },
-  {
+  },{
     "id": "line-10",
     "code": "H0PC",
     "gurmukhi": "ਹੁਕਮਿ ਰਜਾਈ ਚਲਣਾ ਨਾਨਕ ਲਿਖਿਆ ਨਾਲਿ ॥੧॥",
@@ -98,8 +88,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Hukami rajaaee chala(nn)aa naanak likhiaa naali ||1||"
-  },
-  {
+  },{
     "id": "line-11",
     "code": "60LK",
     "gurmukhi": "ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥",
@@ -107,8 +96,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Hukamee hovani aakaar hukamu na kahiaa jaaee ||"
-  },
-  {
+  },{
     "id": "line-12",
     "code": "UVSL",
     "gurmukhi": "ਹੁਕਮੀ ਹੋਵਨਿ ਜੀਅ ਹੁਕਮਿ ਮਿਲੈ ਵਡਿਆਈ ॥",
@@ -116,8 +104,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Hukamee hovani jeea hukami milai vadiaaee ||"
-  },
-  {
+  },{
     "id": "line-13",
     "code": "GLXS",
     "gurmukhi": "ਹੁਕਮੀ ਉਤਮੁ ਨੀਚੁ ਹੁਕਮਿ ਲਿਖਿ ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ ॥",
@@ -125,8 +112,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Hukamee utamu neechu hukami likhi dukh sukh paaeeahi ||"
-  },
-  {
+  },{
     "id": "line-14",
     "code": "P2VG",
     "gurmukhi": "ਇਕਨਾ ਹੁਕਮੀ ਬਖਸੀਸ ਇਕਿ ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ ॥",
@@ -134,8 +120,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Ikanaa hukamee bakhasees iki hukamee sadaa bhavaaeeahi ||"
-  },
-  {
+  },{
     "id": "line-15",
     "code": "MX4P",
     "gurmukhi": "ਹੁਕਮੈ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥",
@@ -143,8 +128,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Hukamai anddari sabhu ko baahari hukam na koi ||"
-  },
-  {
+  },{
     "id": "line-16",
     "code": "FKUU",
     "gurmukhi": "ਨਾਨਕ ਹੁਕਮੈ ਜੇ ਬੁਝੈ ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ ॥੨॥",
@@ -152,8 +136,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Naanak hukamai je bujhai ta haumai kahai na koi ||2||"
-  },
-  {
+  },{
     "id": "line-17",
     "code": "VUQD",
     "gurmukhi": "ਗਾਵੈ ਕੋ ਤਾਣੁ ਹੋਵੈ ਕਿਸੈ ਤਾਣੁ ॥",
@@ -161,8 +144,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Gaavai ko taa(nn)u hovai kisai taa(nn)u ||"
-  },
-  {
+  },{
     "id": "line-18",
     "code": "7AC7",
     "gurmukhi": "ਗਾਵੈ ਕੋ ਦਾਤਿ ਜਾਣੈ ਨੀਸਾਣੁ ॥",
@@ -170,8 +152,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Gaavai ko daati jaa(nn)ai neesaa(nn)u ||"
-  },
-  {
+  },{
     "id": "line-19",
     "code": "MB8C",
     "gurmukhi": "ਗਾਵੈ ਕੋ ਗੁਣ ਵਡਿਆਈਆ ਚਾਰ ॥",
@@ -179,8 +160,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Gaavai ko gu(nn) vadiaaeeaa chaar ||"
-  },
-  {
+  },{
     "id": "line-20",
     "code": "C5NR",
     "gurmukhi": "ਗਾਵੈ ਕੋ ਵਿਦਿਆ ਵਿਖਮੁ ਵੀਚਾਰੁ ॥",
@@ -188,8 +168,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Gaavai ko vidiaa vikhamu veechaaru ||"
-  },
-  {
+  },{
     "id": "line-21",
     "code": "HZSG",
     "gurmukhi": "ਗਾਵੈ ਕੋ ਸਾਜਿ ਕਰੇ ਤਨੁ ਖੇਹ ॥",
@@ -197,8 +176,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Gaavai ko saaji kare tanu kheh ||"
-  },
-  {
+  },{
     "id": "line-22",
     "code": "13CH",
     "gurmukhi": "ਗਾਵੈ ਕੋ ਜੀਅ ਲੈ ਫਿਰਿ ਦੇਹ॥",
@@ -206,8 +184,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Gaavai ko jeea lai phir deh ||"
-  },
-  {
+  },{
     "id": "line-23",
     "code": "4SBX",
     "gurmukhi": "ਗਾਵੈ ਕੋ ਜਾਪੈ ਦਿਸੈ ਦੂਰਿ ॥",
@@ -215,17 +192,15 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "1",
     "english": "Gaavai ko jaapai disai doori ||"
-  },
-  {
+  },{
     "id": "line-24",
     "code": "ELAE",
     "gurmukhi": "ਗਾਵੈ ਕੋ ਵੇਖੈ ਹਾਦਰਾ ਹਦੂਰਿ ॥",
     "translation": "Some sing of the One, who experience that One as being forever present.",
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
-    "Ang": "1",
+    "Ang": "2",
     "english": "Gaavai ko vekhai haadaraa hadoori ||"
-  },
-  {
+  },{
     "id": "line-25",
     "code": "7922",
     "gurmukhi": "ਕਥਨਾ ਕਥੀ ਨ ਆਵੈ ਤੋਟਿ ॥",
@@ -233,8 +208,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Kathanaa kathee na aavai toti ||"
-  },
-  {
+  },{
     "id": "line-26",
     "code": "Y9R8",
     "gurmukhi": "ਕਥਿ ਕਥਿ ਕਥੀ ਕੋਟੀ ਕੋਟਿ ਕੋਟਿ ॥",
@@ -242,8 +216,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Kathi kathi kathee kotee koti koti ||"
-  },
-  {
+  },{
     "id": "line-27",
     "code": "1UMU",
     "gurmukhi": "ਦੇਦਾ ਦੇ ਲੈਦੇ ਥਕਿ ਪਾਹਿ॥",
@@ -251,8 +224,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "The Great Giver keeps on giving, while those who receive grow weary of receiving."
-  },
-  {
+  },{
     "id": "line-28",
     "code": "32FN",
     "gurmukhi": "ਜੁਗਾ ਜੁਗੰਤਰਿ ਖਾਹੀ ਖਾਹਿ ॥",
@@ -260,8 +232,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Jugaa juganttari khaahee khaahi ||"
-  },
-  {
+  },{
     "id": "line-29",
     "code": "Q13S",
     "gurmukhi": "ਹੁਕਮੀ ਹੁਕਮੁ ਚਲਾਏ ਰਾਹੁ ॥",
@@ -269,8 +240,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Hukamee hukamu chalaae raahu ||"
-  },
-  {
+  },{
     "id": "line-30",
     "code": "6VSN",
     "gurmukhi": "ਨਾਨਕ ਵਿਗਸੈ ਵੇਪਰਵਾਹੁ ॥੩॥",
@@ -278,8 +248,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Naanak vigasai veparavaahu ||3||"
-  },
-  {
+  },{
     "id": "line-31",
     "code": "PU7L",
     "gurmukhi": "ਸਾਚਾ ਸਾਹਿਬੁ ਸਾਚੁ ਨਾਇ ਭਾਖਿਆ ਭਾਉ ਅਪਾਰੁ ॥",
@@ -287,8 +256,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Saachaa saahibu saachu naai bhaakhiaa bhaau apaaru ||"
-  },
-  {
+  },{
     "id": "line-32",
     "code": "AY0H",
     "gurmukhi": "ਆਖਹਿ ਮੰਗਹਿ ਦੇਹਿ ਦੇਹਿ ਦਾਤਿ ਕਰੇ ਦਾਤਾਰੁ ॥",
@@ -296,8 +264,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Aakhahi manggahi dehi dehi daati kare daataaru ||"
-  },
-  {
+  },{
     "id": "line-33",
     "code": "NFYC",
     "gurmukhi": "ਫੇਰਿ ਕਿ ਅਗੈ ਰਖੀਐ ਜਿਤੁ ਦਿਸੈ ਦਰਬਾਰੁ ॥",
@@ -305,8 +272,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Pheri ki agai rakheeai jitu disai darabaaru ||"
-  },
-  {
+  },{
     "id": "line-34",
     "code": "XPT5",
     "gurmukhi": "ਮੁਹੌ ਕਿ ਬੋਲਣੁ ਬੋਲੀਐ ਜਿਤੁ ਸੁਣਿ ਧਰੇ ਪਿਆਰੁ ॥",
@@ -314,8 +280,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Muhau ki bola(nn)u boleeai jitu su(nn)i dhare piaaru ||"
-  },
-  {
+  },{
     "id": "line-35",
     "code": "Y0C8",
     "gurmukhi": "ਅੰਮ੍ਰਿਤ ਵੇਲਾ ਸਚੁ ਨਾਉ ਵਡਿਆਈ ਵੀਚਾਰੁ ॥",
@@ -323,8 +288,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Ammmrit velaa sachu naau vadiaaee veechaaru ||"
-  },
-  {
+  },{
     "id": "line-36",
     "code": "L7P6",
     "gurmukhi": "ਕਰਮੀ ਆਵੈ ਕਪੜਾ ਨਦਰੀ ਮੋਖੁ ਦੁਆਰੁ ॥",
@@ -332,8 +296,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Karamee aavai kapa(rr)aa nadaree mokhu duaaru ||"
-  },
-  {
+  },{
     "id": "line-37",
     "code": "HJP9",
     "gurmukhi": "ਨਾਨਕ ਏਵੈ ਜਾਣੀਐ ਸਭੁ ਆਪੇ ਸਚਿਆਰੁ ॥੪॥",
@@ -341,8 +304,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Naanak evai jaa(nn)eeai sabhu aape sachiaaru ||4||"
-  },
-  {
+  },{
     "id": "line-38",
     "code": "34GD",
     "gurmukhi": "ਥਾਪਿਆ ਨ ਜਾਇ ਕੀਤਾ ਨ ਹੋਇ ॥",
@@ -350,8 +312,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Thaapiaa na jaai keetaa na hoi ||"
-  },
-  {
+  },{
     "id": "line-39",
     "code": "8KH1",
     "gurmukhi": "ਆਪੇ ਆਪਿ ਨਿਰੰਜਨੁ ਸੋਇ ॥",
@@ -359,8 +320,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Aape aapi niranjjanu soi ||"
-  },
-  {
+  },{
     "id": "line-40",
     "code": "TPDM",
     "gurmukhi": "ਜਿਨਿ ਸੇਵਿਆ ਤਿਨਿ ਪਾਇਆ ਮਾਨੁ ॥",
@@ -368,8 +328,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Jini seviaa tini paaiaa maanu ||"
-  },
-  {
+  },{
     "id": "line-41",
     "code": "3K42",
     "gurmukhi": "ਨਾਨਕ ਗਾਵੀਐ ਗੁਣੀ ਨਿਧਾਨੁ ॥",
@@ -377,8 +336,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Naanak gaaveeai gu(nn)ee nidhaanu ||"
-  },
-  {
+  },{
     "id": "line-42",
     "code": "H4D8",
     "gurmukhi": "ਗਾਵੀਐ ਸੁਣੀਐ ਮਨਿ ਰਖੀਐ ਭਾਉ ॥",
@@ -386,8 +344,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Gaaveeai su(nn)eeai mani rakheeai bhaau ||"
-  },
-  {
+  },{
     "id": "line-43",
     "code": "TE18",
     "gurmukhi": "ਦੁਖੁ ਪਰਹਰਿ ਸੁਖੁ ਘਰਿ ਲੈ ਜਾਇ ॥",
@@ -395,8 +352,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Dukhu parahari sukhu ghari lai jaai ||"
-  },
-  {
+  },{
     "id": "line-44",
     "code": "3PHR",
     "gurmukhi": "ਗੁਰਮੁਖਿ ਨਾਦੰ ਗੁਰਮੁਖਿ ਵੇਦੰ ਗੁਰਮੁਖਿ ਰਹਿਆ ਸਮਾਈ ॥",
@@ -404,8 +360,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Guramukhi naadann guramukhi vedann guramukhi rahiaa samaaee ||"
-  },
-  {
+  },{
     "id": "line-45",
     "code": "5YV5",
     "gurmukhi": "ਗੁਰੁ ਈਸਰੁ ਗੁਰੁ ਗੋਰਖੁ ਬਰਮਾ ਗੁਰੁ ਪਾਰਬਤੀ ਮਾਈ ॥",
@@ -413,8 +368,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Guru eesaru guru gorakhu baramaa guru paarabatee maaee ||"
-  },
-  {
+  },{
     "id": "line-46",
     "code": "X1GF",
     "gurmukhi": "ਜੇ ਹਉ ਜਾਣਾ ਆਖਾ ਨਾਹੀ ਕਹਣਾ ਕਥਨੁ ਨ ਜਾਈ ॥",
@@ -422,8 +376,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Je hau jaa(nn)aa aakhaa naahee kaha(nn)aa kathanu na jaaee ||"
-  },
-  {
+  },{
     "id": "line-47",
     "code": "5KPL",
     "gurmukhi": "ਗੁਰਾ ਇਕ ਦੇਹਿ ਬੁਝਾਈ ॥",
@@ -431,8 +384,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Guraa ik dehi bujhaaee ||"
-  },
-  {
+  },{
     "id": "line-48",
     "code": "DJAR",
     "gurmukhi": "ਸਭਨਾ ਜੀਆ ਕਾ ਇਕੁ ਦਾਤਾ ਸੋ ਮੈ ਵਿਸਰਿ ਨ ਜਾਈ ॥੫॥",
@@ -440,8 +392,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Sabhanaa jeeaa kaa iku daataa so mai visari na jaaee ||5||"
-  },
-  {
+  },{
     "id": "line-49",
     "code": "7NRN",
     "gurmukhi": "ਤੀਰਥਿ ਨਾਵਾ ਜੇ ਤਿਸੁ ਭਾਵਾ ਵਿਣੁ ਭਾਣੇ ਕਿ ਨਾਇ ਕਰੀ ॥",
@@ -449,8 +400,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Teerathi naavaa je tisu bhaavaa vi(nn)u bhaa(nn)e ki naai karee ||"
-  },
-  {
+  },{
     "id": "line-50",
     "code": "8HGP",
     "gurmukhi": "ਜੇਤੀ ਸਿਰਠਿ ਉਪਾਈ ਵੇਖਾ ਵਿਣੁ ਕਰਮਾ ਕਿ ਮਿਲੈ ਲਈ ॥",
@@ -458,8 +408,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Jetee sirathi upaaee vekhaa vi(nn)u karamaa ki milai laee ||"
-  },
-  {
+  },{
     "id": "line-51",
     "code": "J6KZ",
     "gurmukhi": "ਮਤਿ ਵਿਚਿ ਰਤਨ ਜਵਾਹਰ ਮਾਣਿਕ ਜੇ ਇਕ ਗੁਰ ਕੀ ਸਿਖ ਸੁਣੀ ॥",
@@ -467,8 +416,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Mati vichi ratan javaahar maa(nn)ik je ik gur kee sikh su(nn)ee ||"
-  },
-  {
+  },{
     "id": "line-52",
     "code": "NVVQ",
     "gurmukhi": "ਗੁਰਾ ਇਕ ਦੇਹਿ ਬੁਝਾਈ ॥",
@@ -476,8 +424,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Guraa ik dehi bujhaaee ||"
-  },
-  {
+  },{
     "id": "line-53",
     "code": "AGUV",
     "gurmukhi": "ਸਭਨਾ ਜੀਆ ਕਾ ਇਕੁ ਦਾਤਾ ਸੋ ਮੈ ਵਿਸਰਿ ਨ ਜਾਈ ॥੬॥",
@@ -485,8 +432,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Sabhanaa jeeaa kaa iku daataa so mai visari na jaaee ||6||"
-  },
-  {
+  },{
     "id": "line-54",
     "code": "MLKE",
     "gurmukhi": "ਜੇ ਜੁਗ ਚਾਰੇ ਆਰਜਾ ਹੋਰ ਦਸੂਣੀ ਹੋਇ ॥",
@@ -494,8 +440,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Je jug chaare aarajaa hor dasoo(nn)ee hoi ||"
-  },
-  {
+  },{
     "id": "line-55",
     "code": "C69U",
     "gurmukhi": "ਨਵਾ ਖੰਡਾ ਵਿਚਿ ਜਾਣੀਐ ਨਾਲਿ ਚਲੈ ਸਭੁ ਕੋਇ ॥",
@@ -503,8 +448,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Navaa khanddaa vichi jaa(nn)eeai naali chalai sabhu koi ||"
-  },
-  {
+  },{
     "id": "line-56",
     "code": "CZ4N",
     "gurmukhi": "ਚੰਗਾ ਨਾਉ ਰਖਾਇ ਕੈ ਜਸੁ ਕੀਰਤਿ ਜਗਿ ਲੇਇ ॥",
@@ -512,8 +456,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Changgaa naau rakhaai kai jasu keerati jagi lei ||"
-  },
-  {
+  },{
     "id": "line-57",
     "code": "EPP1",
     "gurmukhi": "ਜੇ ਤਿਸੁ ਨਦਰਿ ਨ ਆਵਈ ਤ ਵਾਤ ਨ ਪੁਛੈ ਕੇ ॥",
@@ -521,8 +464,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Je tisu nadari na aavaee ta vaat na puchhai ke ||"
-  },
-  {
+  },{
     "id": "line-58",
     "code": "FTM0",
     "gurmukhi": "ਕੀਟਾ ਅੰਦਰਿ ਕੀਟੁ ਕਰਿ ਦੋਸੀ ਦੋਸੁ ਧਰੇ ॥",
@@ -530,8 +472,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Keetaa anddari keetu kari dosee dosu dhare ||"
-  },
-  {
+  },{
     "id": "line-59",
     "code": "Q2DD",
     "gurmukhi": "ਨਾਨਕ ਨਿਰਗੁਣਿ ਗੁਣੁ ਕਰੇ ਗੁਣਵੰਤਿਆ ਗੁਣੁ ਦੇ ॥",
@@ -539,8 +480,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Naanak niragu(nn)i gu(nn)u kare gu(nn)avanttiaa gu(nn)u de ||"
-  },
-  {
+  },{
     "id": "line-60",
     "code": "SYSB",
     "gurmukhi": "ਤੇਹਾ ਕੋਇ ਨ ਸੁਝਈ ਜਿ ਤਿਸੁ ਗੁਣੁ ਕੋਇ ਕਰੇ ॥੭॥",
@@ -548,8 +488,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Tehaa koi na sujhaee ji tisu gu(nn)u koi kare ||7||"
-  },
-  {
+  },{
     "id": "line-61",
     "code": "ZYF3",
     "gurmukhi": "ਸੁਣਿਐ ਸਿਧ ਪੀਰ ਸੁਰਿ ਨਾਥ ॥",
@@ -557,8 +496,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Su(nn)iai sidh peer suri naath ||"
-  },
-  {
+  },{
     "id": "line-62",
     "code": "A7FY",
     "gurmukhi": "ਸੁਣਿਐ ਧਰਤਿ ਧਵਲ ਆਕਾਸ ॥",
@@ -566,8 +504,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Su(nn)iai dharati dhaval aakaas ||"
-  },
-  {
+  },{
     "id": "line-63",
     "code": "QYGU",
     "gurmukhi": "ਸੁਣਿਐ ਦੀਪ ਲੋਅ ਪਾਤਾਲ ॥",
@@ -575,8 +512,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Su(nn)iai deep loa paataal ||"
-  },
-  {
+  },{
     "id": "line-64",
     "code": "F28C",
     "gurmukhi": "ਸੁਣਿਐ ਪੋਹਿ ਨ ਸਕੈ ਕਾਲੁ ॥",
@@ -584,17 +520,15 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Su(nn)iai pohi na sakai kaalu ||"
-  },
-  {
+  },{
     "id": "line-65",
     "code": "3477",
     "gurmukhi": "ਨਾਨਕ ਭਗਤਾ ਸਦਾ ਵਿਗਾਸੁ ॥",
     "translation": "Nanak says, the devotees always remain in bliss.",
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
-    "Ang": "3",
+    "Ang": "2",
     "english": "Naanak bhagataa sadaa vigaasu ||"
-  },
-  {
+  },{
     "id": "line-66",
     "code": "FVWP",
     "gurmukhi": "ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ ਨਾਸੁ ॥੮॥",
@@ -602,8 +536,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Su(nn)iai dookh paap kaa naasu ||8||"
-  },
-  {
+  },{
     "id": "line-67",
     "code": "TENR",
     "gurmukhi": "ਸੁਣਿਐ ਈਸਰੁ ਬਰਮਾ ਇੰਦੁ ॥",
@@ -611,8 +544,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Su(nn)iai eesaru baramaa ianddu ||"
-  },
-  {
+  },{
     "id": "line-68",
     "code": "7M4S",
     "gurmukhi": "ਸੁਣਿਐ ਮੁਖਿ ਸਾਲਾਹਣ ਮੰਦੁ ॥",
@@ -620,8 +552,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Su(nn)iai mukhi saalaaha(nn) manddu ||"
-  },
-  {
+  },{
     "id": "line-69",
     "code": "UCWQ",
     "gurmukhi": "ਸੁਣਿਐ ਜੋਗ ਜੁਗਤਿ ਤਨਿ ਭੇਦ ॥",
@@ -629,8 +560,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Su(nn)iai jog jugati tani bhed ||"
-  },
-  {
+  },{
     "id": "line-70",
     "code": "BXPY",
     "gurmukhi": "ਸੁਣਿਐ ਸਾਸਤ ਸਿਮ੍ਰਿਤਿ ਵੇਦ ॥",
@@ -638,26 +568,23 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "2",
     "english": "Su(nn)iai saasat simriti ved ||"
-  },
-  {
+  },{
     "id": "line-71",
     "code": "GXL1",
     "gurmukhi": "ਨਾਨਕ ਭਗਤਾ ਸਦਾ ਵਿਗਾਸੁ ॥",
     "translation": "Nanak says, the devotees always remain in bliss.",
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
-    "Ang": "3",
+    "Ang": "2",
     "english": "Naanak bhagataa sadaa vigaasu ||"
-  },
-  {
+  },{
     "id": "line-72",
     "code": "97SA",
     "gurmukhi": "ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ ਨਾਸੁ ॥੯॥",
     "translation": "Through listening to the One's name, suffering and sin are destroyed.",
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
-    "Ang": "2",
+    "Ang": "3",
     "english": "Su(nn)iai dookh paap kaa naasu ||9||"
-  },
-  {
+  },{
     "id": "line-73",
     "code": "62ZU",
     "gurmukhi": "ਸੁਣਿਐ ਸਤੁ ਸੰਤੋਖੁ ਗਿਆਨੁ ॥",
@@ -665,8 +592,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Su(nn)iai satu santtokhu giaanu ||"
-  },
-  {
+  },{
     "id": "line-74",
     "code": "RT8C",
     "gurmukhi": "ਸੁਣਿਐ ਅਠਸਠਿ ਕਾ ਇਸਨਾਨੁ ॥",
@@ -674,8 +600,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Su(nn)iai athasathi kaa isanaanu ||"
-  },
-  {
+  },{
     "id": "line-75",
     "code": "KDHE",
     "gurmukhi": "ਸੁਣਿਐ ਪੜਿ ਪੜਿ ਪਾਵਹਿ ਮਾਨੁ ॥",
@@ -683,8 +608,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Su(nn)iai pa(rr)i pa(rr)i paavahi maanu ||"
-  },
-  {
+  },{
     "id": "line-76",
     "code": "7T0L",
     "gurmukhi": "ਸੁਣਿਐ ਲਾਗੈ ਸਹਜਿ ਧਿਆਨੁ ॥",
@@ -692,8 +616,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Su(nn)iai laagai sahaji dhiaanu ||"
-  },
-  {
+  },{
     "id": "line-77",
     "code": "WXKL",
     "gurmukhi": "ਨਾਨਕ ਭਗਤਾ ਸਦਾ ਵਿਗਾਸੁ ॥",
@@ -701,8 +624,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Naanak bhagataa sadaa vigaasu ||"
-  },
-  {
+  },{
     "id": "line-78",
     "code": "EV0P",
     "gurmukhi": "ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ ਨਾਸੁ ॥੧੦॥",
@@ -710,8 +632,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Su(nn)iai dookh paap kaa naasu ||10||"
-  },
-  {
+  },{
     "id": "line-79",
     "code": "YAQ2",
     "gurmukhi": "ਸੁਣਿਐ ਸਰਾ ਗੁਣਾ ਕੇ ਗਾਹ ॥",
@@ -719,8 +640,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Su(nn)iai saraa gu(nn)aa ke gaah ||"
-  },
-  {
+  },{
     "id": "line-80",
     "code": "HCMF",
     "gurmukhi": "ਸੁਣਿਐ ਸੇਖ ਪੀਰ ਪਾਤਿਸਾਹ ॥",
@@ -728,8 +648,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Su(nn)iai sekh peer paatisaah ||"
-  },
-  {
+  },{
     "id": "line-81",
     "code": "PSFG",
     "gurmukhi": "ਸੁਣਿਐ ਅੰਧੇ ਪਾਵਹਿ ਰਾਹੁ ॥",
@@ -737,8 +656,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Su(nn)iai anddhe paavahi raahu ||"
-  },
-  {
+  },{
     "id": "line-82",
     "code": "7J2W",
     "gurmukhi": "ਸੁਣਿਐ ਹਾਥ ਹੋਵੈ ਅਸਗਾਹੁ ॥",
@@ -746,8 +664,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Su(nn)iai haath hovai asagaahu ||"
-  },
-  {
+  },{
     "id": "line-83",
     "code": "PQ8D",
     "gurmukhi": "ਨਾਨਕ ਭਗਤਾ ਸਦਾ ਵਿਗਾਸੁ ॥",
@@ -755,8 +672,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Naanak bhagataa sadaa vigaasu ||"
-  },
-  {
+  },{
     "id": "line-84",
     "code": "VC8U",
     "gurmukhi": "ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ ਨਾਸੁ ॥੧੧॥",
@@ -764,8 +680,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Su(nn)iai dookh paap kaa naasu ||11||"
-  },
-  {
+  },{
     "id": "line-85",
     "code": "NM9A",
     "gurmukhi": "ਮੰਨੇ ਕੀ ਗਤਿ ਕਹੀ ਨ ਜਾਇ ॥",
@@ -773,17 +688,15 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Manne kee gati kahee na jaai ||"
-  },
-  {
+  },{
     "id": "line-86",
     "code": "ZZT7",
     "gurmukhi": "ਜੇ ਕੋ ਕਹੈ ਪਿਛੈ ਪਛੁਤਾਇ ॥",
     "translation": "Whoever tries to describe it will regret the attempt.",
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
-    "Ang": "8",
+    "Ang": "3",
     "english": "Je ko kahai pichhai pachhutaai ||"
-  },
-  {
+  },{
     "id": "line-87",
     "code": "MER7",
     "gurmukhi": "ਕਾਗਦਿ ਕਲਮ ਨ ਲਿਖਣਹਾਰੁ ॥",
@@ -791,8 +704,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Kaagadi kalam na likha(nn)ahaaru ||"
-  },
-  {
+  },{
     "id": "line-88",
     "code": "R15V",
     "gurmukhi": "ਮੰਨੇ ਕਾ ਬਹਿ ਕਰਨਿ ਵੀਚਾਰੁ ॥",
@@ -800,8 +712,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Manne kaa bahi karani veechaaru ||"
-  },
-  {
+  },{
     "id": "line-89",
     "code": "NS3T",
     "gurmukhi": "ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥",
@@ -809,8 +720,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Aisaa naamu niranjjanu hoi ||"
-  },
-  {
+  },{
     "id": "line-90",
     "code": "B5CT",
     "gurmukhi": "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੨॥",
@@ -818,8 +728,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Je ko manni jaa(nn)ai mani koi ||12||"
-  },
-  {
+  },{
     "id": "line-91",
     "code": "2GA0",
     "gurmukhi": "ਮੰਨੈ ਸੁਰਤਿ ਹੋਵੈ ਮਨਿ ਬੁਧਿ ॥",
@@ -827,8 +736,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Mannai surati hovai mani budhi ||"
-  },
-  {
+  },{
     "id": "line-92",
     "code": "V1LA",
     "gurmukhi": "ਮੰਨੈ ਸਗਲ ਭਵਣ ਕੀ ਸੁਧਿ ॥",
@@ -836,8 +744,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Mannai sagal bhava(nn) kee sudhi ||"
-  },
-  {
+  },{
     "id": "line-93",
     "code": "B3JS",
     "gurmukhi": "ਮੰਨੈ ਮੁਹਿ ਚੋਟਾ ਨਾ ਖਾਇ ॥",
@@ -845,8 +752,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Mannai muhi chotaa naa khaai ||"
-  },
-  {
+  },{
     "id": "line-94",
     "code": "VQ72",
     "gurmukhi": "ਮੰਨੈ ਜਮ ਕੈ ਸਾਥਿ ਨ ਜਾਇ ॥",
@@ -854,8 +760,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Mannai jam kai saathi na jaai ||"
-  },
-  {
+  },{
     "id": "line-95",
     "code": "RZQP",
     "gurmukhi": "ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥",
@@ -863,8 +768,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Aisaa naamu niranjjanu hoi ||"
-  },
-  {
+  },{
     "id": "line-96",
     "code": "92E4",
     "gurmukhi": "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੩॥",
@@ -872,8 +776,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Je ko manni jaa(nn)ai mani koi ||13||"
-  },
-  {
+  },{
     "id": "line-97",
     "code": "8NGG",
     "gurmukhi": "ਮੰਨੈ ਮਾਰਗਿ ਠਾਕ ਨ ਪਾਇ ॥",
@@ -881,8 +784,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Mannai maaragi thaak na paai ||"
-  },
-  {
+  },{
     "id": "line-98",
     "code": "3A8V",
     "gurmukhi": "ਮੰਨੈ ਪਤਿ ਸਿਉ ਪਰਗਟੁ ਜਾਇ ॥",
@@ -890,8 +792,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Mannai pati siu paragatu jaai ||"
-  },
-  {
+  },{
     "id": "line-99",
     "code": "R9RA",
     "gurmukhi": "ਮੰਨੈ ਮਗੁ ਨ ਚਲੈ ਪੰਥੁ ॥",
@@ -899,8 +800,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Mannai magu na chalai pantthu ||"
-  },
-  {
+  },{
     "id": "line-100",
     "code": "6VHT",
     "gurmukhi": "ਮੰਨੈ ਧਰਮ ਸੇਤੀ ਸਨਬੰਧੁ ॥",
@@ -908,8 +808,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Mannai dharam setee sanabanddhu ||"
-  },
-  {
+  },{
     "id": "line-101",
     "code": "314W",
     "gurmukhi": "ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥",
@@ -917,8 +816,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Aisaa naamu niranjjanu hoi ||"
-  },
-  {
+  },{
     "id": "line-102",
     "code": "NLHT",
     "gurmukhi": "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੪॥",
@@ -926,8 +824,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Je ko manni jaa(nn)ai mani koi ||14||"
-  },
-  {
+  },{
     "id": "line-103",
     "code": "EEV2",
     "gurmukhi": "ਮੰਨੈ ਪਾਵਹਿ ਮੋਖੁ ਦੁਆਰੁ ॥",
@@ -935,8 +832,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Mannai paavahi mokhu duaaru ||"
-  },
-  {
+  },{
     "id": "line-104",
     "code": "XDGX",
     "gurmukhi": "ਮੰਨੈ ਪਰਵਾਰੈ ਸਾਧਾਰੁ ॥",
@@ -944,8 +840,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Mannai paravaarai saadhaaru ||"
-  },
-  {
+  },{
     "id": "line-105",
     "code": "EMX5",
     "gurmukhi": "ਮੰਨੈ ਤਰੈ ਤਾਰੇ ਗੁਰੁ ਸਿਖ ॥",
@@ -953,8 +848,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Mannai tarai taare guru sikh ||"
-  },
-  {
+  },{
     "id": "line-106",
     "code": "PD82",
     "gurmukhi": "ਮੰਨੈ ਨਾਨਕ ਭਵਹਿ ਨ ਭਿਖ ॥",
@@ -962,8 +856,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Mannai naanak bhavahi na bhikh ||"
-  },
-  {
+  },{
     "id": "line-107",
     "code": "V24N",
     "gurmukhi": "ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥",
@@ -971,8 +864,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Aisaa naamu niranjjanu hoi ||"
-  },
-  {
+  },{
     "id": "line-108",
     "code": "Y8UM",
     "gurmukhi": "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੫॥",
@@ -980,8 +872,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Je ko manni jaa(nn)ai mani koi ||15||"
-  },
-  {
+  },{
     "id": "line-109",
     "code": "K3GP",
     "gurmukhi": "ਪੰਚ ਪਰਵਾਣ ਪੰਚ ਪਰਧਾਨੁ ॥",
@@ -989,8 +880,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Pancch paravaa(nn) pancch paradhaanu ||"
-  },
-  {
+  },{
     "id": "line-110",
     "code": "4XG0",
     "gurmukhi": "ਪੰਚੇ ਪਾਵਹਿ ਦਰਗਹਿ ਮਾਨੁ ॥",
@@ -998,8 +888,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Pancche paavahi daragahi maanu ||"
-  },
-  {
+  },{
     "id": "line-111",
     "code": "SYQV",
     "gurmukhi": "ਪੰਚੇ ਸੋਹਹਿ ਦਰਿ ਰਾਜਾਨੁ ॥",
@@ -1007,8 +896,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Pancche sohahi dari raajaanu ||"
-  },
-  {
+  },{
     "id": "line-112",
     "code": "WBA3",
     "gurmukhi": "ਪੰਚਾ ਕਾ ਗੁਰੁ ਏਕੁ ਧਿਆਨੁ ॥",
@@ -1016,8 +904,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Pancchaa kaa guru eku dhiaanu ||"
-  },
-  {
+  },{
     "id": "line-113",
     "code": "VPS6",
     "gurmukhi": "ਜੇ ਕੋ ਕਹੈ ਕਰੈ ਵੀਚਾਰੁ ॥",
@@ -1025,8 +912,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Je ko kahai karai veechaaru ||"
-  },
-  {
+  },{
     "id": "line-114",
     "code": "ZP00",
     "gurmukhi": "ਕਰਤੇ ਕੈ ਕਰਣੈ ਨਾਹੀ ਸੁਮਾਰੁ ॥",
@@ -1034,8 +920,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Karate kai kara(nn)ai naahee sumaaru ||"
-  },
-  {
+  },{
     "id": "line-115",
     "code": "JUGS",
     "gurmukhi": "ਧੌਲੁ ਧਰਮੁ ਦਇਆ ਕਾ ਪੂਤੁ ॥",
@@ -1043,8 +928,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Dhaulu dharamu daiaa kaa pootu ||"
-  },
-  {
+  },{
     "id": "line-116",
     "code": "BRQJ",
     "gurmukhi": "ਸੰਤੋਖੁ ਥਾਪਿ ਰਖਿਆ ਜਿਨਿ ਸੂਤਿ ॥",
@@ -1052,8 +936,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Santtokhu thaapi rakhiaa jini sooti ||"
-  },
-  {
+  },{
     "id": "line-117",
     "code": "M2D6",
     "gurmukhi": "ਜੇ ਕੋ ਬੁਝੈ ਹੋਵੈ ਸਚਿਆਰੁ ॥",
@@ -1061,8 +944,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Je ko bujhai hovai sachiaaru ||"
-  },
-  {
+  },{
     "id": "line-118",
     "code": "TH49",
     "gurmukhi": "ਧਵਲੈ ਉਪਰਿ ਕੇਤਾ ਭਾਰੁ ॥",
@@ -1070,8 +952,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Dhavalai upari ketaa bhaaru ||"
-  },
-  {
+  },{
     "id": "line-119",
     "code": "F3DS",
     "gurmukhi": "ਧਰਤੀ ਹੋਰੁ ਪਰੈ ਹੋਰੁ ਹੋਰੁ ॥",
@@ -1079,8 +960,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Dharatee horu parai horu horu ||"
-  },
-  {
+  },{
     "id": "line-120",
     "code": "DLGR",
     "gurmukhi": "ਤਿਸ ਤੇ ਭਾਰੁ ਤਲੈ ਕਵਣੁ ਜੋਰੁ ॥",
@@ -1088,8 +968,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Tis te bhaaru talai kava(nn)u joru ||"
-  },
-  {
+  },{
     "id": "line-121",
     "code": "TU5M",
     "gurmukhi": "ਜੀਅ ਜਾਤਿ ਰੰਗਾ ਕੇ ਨਾਵ ॥",
@@ -1097,8 +976,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Jeea jaati ranggaa ke naav ||"
-  },
-  {
+  },{
     "id": "line-122",
     "code": "45QD",
     "gurmukhi": "ਸਭਨਾ ਲਿਖਿਆ ਵੁੜੀ ਕਲਾਮ ॥",
@@ -1106,8 +984,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Sabhanaa likhiaa vu(rr)ee kalaam ||"
-  },
-  {
+  },{
     "id": "line-123",
     "code": "U280",
     "gurmukhi": "ਏਹੁ ਲੇਖਾ ਲਿਖਿ ਜਾਣੈ ਕੋਇ ॥",
@@ -1115,8 +992,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Ehu lekhaa likhi jaa(nn)ai koi ||"
-  },
-  {
+  },{
     "id": "line-124",
     "code": "3EN4",
     "gurmukhi": "ਲੇਖਾ ਲਿਖਿਆ ਕੇਤਾ ਹੋਇ ॥",
@@ -1124,8 +1000,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Lekhaa likhiaa ketaa hoi ||"
-  },
-  {
+  },{
     "id": "line-125",
     "code": "KC1Y",
     "gurmukhi": "ਕੇਤਾ ਤਾਣੁ ਸੁਆਲਿਹੁ ਰੂਪੁ ॥",
@@ -1133,8 +1008,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Ketaa taa(nn)u suaalihu roopu ||"
-  },
-  {
+  },{
     "id": "line-126",
     "code": "RQ99",
     "gurmukhi": "ਕੇਤੀ ਦਾਤਿ ਜਾਣੈ ਕੌਣੁ ਕੂਤੁ ॥",
@@ -1142,8 +1016,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Ketee daati jaa(nn)ai kau(nn)u kootu ||"
-  },
-  {
+  },{
     "id": "line-127",
     "code": "ADTJ",
     "gurmukhi": "ਕੀਤਾ ਪਸਾਉ ਏਕੋ ਕਵਾਉ ॥",
@@ -1151,8 +1024,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Keetaa pasaau eko kavaau ||"
-  },
-  {
+  },{
     "id": "line-128",
     "code": "YG5R",
     "gurmukhi": "ਤਿਸ ਤੇ ਹੋਏ ਲਖ ਦਰੀਆਉ ॥",
@@ -1160,35 +1032,31 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Tis te hoe lakh dareeaau ||"
-  },
-  {
+  },{
     "id": "line-129",
     "code": "WUJB",
     "gurmukhi": "ਕੁਦਰਤਿ ਕਵਣ ਕਹਾ ਵੀਚਾਰੁ ॥",
     "translation": "How can the One's creative power be described?",
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
-    "Ang": "4",
+    "Ang": "3",
     "english": "Kudarati kava(nn) kahaa veechaaru ||"
-  },
-  {
+  },{
     "id": "line-130",
     "code": "MF67",
     "gurmukhi": "ਵਾਰਿਆ ਨ ਜਾਵਾ ਏਕ ਵਾਰ ॥",
     "translation": "I cannot even once be a sacrifice to the One.",
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
-    "Ang": "4",
+    "Ang": "3",
     "english": "Vaariaa na jaavaa ek vaar ||"
-  },
-  {
+  },{
     "id": "line-131",
     "code": "Y8MW",
     "gurmukhi": "ਜੋ ਤੁਧੁ ਭਾਵੈ ਸਾਈ ਭਲੀ ਕਾਰ ॥",
     "translation": "Whatever Your divine will is; that doing is perfect.",
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
-    "Ang": "4",
+    "Ang": "3",
     "english": "Jo tudhu bhaavai saaee bhalee kaar ||"
-  },
-  {
+  },{
     "id": "line-132",
     "code": "33K1",
     "gurmukhi": "ਤੂ ਸਦਾ ਸਲਾਮਤਿ ਨਿਰੰਕਾਰ ॥੧੬॥",
@@ -1196,8 +1064,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Too sadaa salaamati nirankkaar ||16||"
-  },
-  {
+  },{
     "id": "line-133",
     "code": "5Z42",
     "gurmukhi": "ਅਸੰਖ ਜਪ ਅਸੰਖ ਭਾਉ ॥",
@@ -1205,8 +1072,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Asankkh jap asankkh bhaau ||"
-  },
-  {
+  },{
     "id": "line-134",
     "code": "203N",
     "gurmukhi": "ਅਸੰਖ ਪੂਜਾ ਅਸੰਖ ਤਪ ਤਾਉ ॥",
@@ -1214,8 +1080,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Asankkh poojaa asankkh tap taau ||"
-  },
-  {
+  },{
     "id": "line-135",
     "code": "G4FX",
     "gurmukhi": "ਅਸੰਖ ਗਰੰਥ ਮੁਖਿ ਵੇਦ ਪਾਠ ॥",
@@ -1223,8 +1088,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Asankkh garantth mukhi ved paath ||"
-  },
-  {
+  },{
     "id": "line-136",
     "code": "011M",
     "gurmukhi": "ਅਸੰਖ ਜੋਗ ਮਨਿ ਰਹਹਿ ਉਦਾਸ ॥",
@@ -1232,17 +1096,15 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "3",
     "english": "Asankkh jog mani rahahi udaas ||"
-  },
-  {
+  },{
     "id": "line-137",
     "code": "GRXU",
     "gurmukhi": "ਅਸੰਖ ਭਗਤ ਗੁਣ ਗਿਆਨ ਵੀਚਾਰ ॥",
     "translation": "Countless devotees contemplate the wisdom and the qualities of the One.",
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
-    "Ang": "3",
+    "Ang": "4",
     "english": "Asankkh bhagat gu(nn) giaan veechaar ||"
-  },
-  {
+  },{
     "id": "line-138",
     "code": "KRAN",
     "gurmukhi": "ਅਸੰਖ ਸਤੀ ਅਸੰਖ ਦਾਤਾਰ ॥",
@@ -1250,8 +1112,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Asankkh satee asankkh daataar ||"
-  },
-  {
+  },{
     "id": "line-139",
     "code": "1F9S",
     "gurmukhi": "ਅਸੰਖ ਸੂਰ ਮੁਹ ਭਖ ਸਾਰ ॥",
@@ -1259,8 +1120,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Asankkh soor muh bhakh saar ||"
-  },
-  {
+  },{
     "id": "line-140",
     "code": "LF7G",
     "gurmukhi": "ਅਸੰਖ ਮੋਨਿ ਲਿਵ ਲਾਇ ਤਾਰ ॥",
@@ -1268,8 +1128,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Asankkh moni liv laai taar ||"
-  },
-  {
+  },{
     "id": "line-141",
     "code": "3NQR",
     "gurmukhi": "ਕੁਦਰਤਿ ਕਵਣ ਕਹਾ ਵੀਚਾਰੁ ॥",
@@ -1277,8 +1136,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Kudarati kava(nn) kahaa veechaaru ||"
-  },
-  {
+  },{
     "id": "line-142",
     "code": "44CB",
     "gurmukhi": "ਵਾਰਿਆ ਨ ਜਾਵਾ ਏਕ ਵਾਰ ॥",
@@ -1286,8 +1144,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Vaariaa na jaavaa ek vaar ||"
-  },
-  {
+  },{
     "id": "line-143",
     "code": "86A1",
     "gurmukhi": "ਜੋ ਤੁਧੁ ਭਾਵੈ ਸਾਈ ਭਲੀ ਕਾਰ ॥",
@@ -1295,8 +1152,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Jo tudhu bhaavai saaee bhalee kaar ||"
-  },
-  {
+  },{
     "id": "line-144",
     "code": "9Y0C",
     "gurmukhi": "ਤੂ ਸਦਾ ਸਲਾਮਤਿ ਨਿਰੰਕਾਰ ॥੧੭॥",
@@ -1304,8 +1160,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Too sadaa salaamati nirankkaar ||17||"
-  },
-  {
+  },{
     "id": "line-145",
     "code": "77V0",
     "gurmukhi": "ਅਸੰਖ ਮੂਰਖ ਅੰਧ ਘੋਰ ॥",
@@ -1313,8 +1168,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Asankkh moorakh anddh ghor ||"
-  },
-  {
+  },{
     "id": "line-146",
     "code": "BXZ6",
     "gurmukhi": "ਅਸੰਖ ਚੋਰ ਹਰਾਮਖੋਰ ॥",
@@ -1322,8 +1176,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Asankkh chor haraamakhor ||"
-  },
-  {
+  },{
     "id": "line-147",
     "code": "SHAV",
     "gurmukhi": "ਅਸੰਖ ਅਮਰ ਕਰਿ ਜਾਹਿ ਜੋਰ ॥",
@@ -1331,8 +1184,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Asankkh amar kari jaahi jor ||"
-  },
-  {
+  },{
     "id": "line-148",
     "code": "DUUN",
     "gurmukhi": "ਅਸੰਖ ਗਲਵਢ ਹਤਿਆ ਕਮਾਹਿ ॥",
@@ -1340,8 +1192,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Asankkh galavadh hatiaa kamaahi ||"
-  },
-  {
+  },{
     "id": "line-149",
     "code": "WESS",
     "gurmukhi": "ਅਸੰਖ ਪਾਪੀ ਪਾਪੁ ਕਰਿ ਜਾਹਿ ॥",
@@ -1349,8 +1200,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Asankkh paapee paapu kari jaahi ||"
-  },
-  {
+  },{
     "id": "line-150",
     "code": "EKX0",
     "gurmukhi": "ਅਸੰਖ ਕੂੜਿਆਰ ਕੂੜੇ ਫਿਰਾਹਿ ॥",
@@ -1358,8 +1208,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Asankkh koo(rr)iaar koo(rr)e phiraahi ||"
-  },
-  {
+  },{
     "id": "line-151",
     "code": "0HA1",
     "gurmukhi": "ਅਸੰਖ ਮਲੇਛ ਮਲੁ ਭਖਿ ਖਾਹਿ ॥",
@@ -1367,8 +1216,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Asankkh malechh malu bhakhi khaahi ||"
-  },
-  {
+  },{
     "id": "line-152",
     "code": "XZLU",
     "gurmukhi": "ਅਸੰਖ ਨਿੰਦਕ ਸਿਰਿ ਕਰਹਿ ਭਾਰੁ ॥",
@@ -1376,8 +1224,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Asankkh ninddak siri karahi bhaaru ||"
-  },
-  {
+  },{
     "id": "line-153",
     "code": "RT3D",
     "gurmukhi": "ਨਾਨਕੁ ਨੀਚੁ ਕਹੈ ਵੀਚਾਰੁ ॥",
@@ -1385,8 +1232,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Naanaku neechu kahai veechaaru ||"
-  },
-  {
+  },{
     "id": "line-154",
     "code": "3N2N",
     "gurmukhi": "ਵਾਰਿਆ ਨ ਜਾਵਾ ਏਕ ਵਾਰ ॥",
@@ -1394,8 +1240,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Vaariaa na jaavaa ek vaar ||"
-  },
-  {
+  },{
     "id": "line-155",
     "code": "QWLN",
     "gurmukhi": "ਜੋ ਤੁਧੁ ਭਾਵੈ ਸਾਈ ਭਲੀ ਕਾਰ ॥",
@@ -1403,8 +1248,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Jo tudhu bhaavai saaee bhalee kaar ||"
-  },
-  {
+  },{
     "id": "line-156",
     "code": "C9VV",
     "gurmukhi": "ਤੂ ਸਦਾ ਸਲਾਮਤਿ ਨਿਰੰਕਾਰ ॥੧੮॥",
@@ -1412,8 +1256,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Too sadaa salaamati nirankkaar ||18||"
-  },
-  {
+  },{
     "id": "line-157",
     "code": "VWZQ",
     "gurmukhi": "ਅਸੰਖ ਨਾਵ ਅਸੰਖ ਥਾਵ ॥",
@@ -1421,8 +1264,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Asankkh naav asankkh thaav ||"
-  },
-  {
+  },{
     "id": "line-158",
     "code": "2YCD",
     "gurmukhi": "ਅਗੰਮ ਅਗੰਮ ਅਸੰਖ ਲੋਅ ॥",
@@ -1430,8 +1272,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Agamm agamm asankkh loa ||"
-  },
-  {
+  },{
     "id": "line-159",
     "code": "878C",
     "gurmukhi": "ਅਸੰਖ ਕਹਹਿ ਸਿਰਿ ਭਾਰੁ ਹੋਇ ॥",
@@ -1439,8 +1280,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Asankkh kahahi siri bhaaru hoi ||"
-  },
-  {
+  },{
     "id": "line-160",
     "code": "CYS8",
     "gurmukhi": "ਅਖਰੀ ਨਾਮੁ ਅਖਰੀ ਸਾਲਾਹ ॥",
@@ -1448,8 +1288,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Akharee naamu akharee saalaah ||"
-  },
-  {
+  },{
     "id": "line-161",
     "code": "ZZGR",
     "gurmukhi": "ਅਖਰੀ ਗਿਆਨੁ ਗੀਤ ਗੁਣ ਗਾਹ ॥",
@@ -1457,8 +1296,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Akharee giaanu geet gu(nn) gaah ||"
-  },
-  {
+  },{
     "id": "line-162",
     "code": "UYP2",
     "gurmukhi": "ਅਖਰੀ ਲਿਖਣੁ ਬੋਲਣੁ ਬਾਣਿ ॥",
@@ -1466,8 +1304,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Akharee likha(nn)u bola(nn)u baa(nn)i ||"
-  },
-  {
+  },{
     "id": "line-163",
     "code": "7C0T",
     "gurmukhi": "ਅਖਰਾ ਸਿਰਿ ਸੰਜੋਗੁ ਵਖਾਣਿ ॥",
@@ -1475,8 +1312,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Akharaa siri sanjjogu vakhaa(nn)i ||"
-  },
-  {
+  },{
     "id": "line-164",
     "code": "4R85",
     "gurmukhi": "ਜਿਨਿ ਏਹਿ ਲਿਖੇ ਤਿਸੁ ਸਿਰਿ ਨਾਹਿ ॥",
@@ -1484,8 +1320,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Jini ehi likhe tisu siri naahi ||"
-  },
-  {
+  },{
     "id": "line-165",
     "code": "PJLP",
     "gurmukhi": "ਜਿਵ ਫੁਰਮਾਏ ਤਿਵ ਤਿਵ ਪਾਹਿ ॥",
@@ -1493,8 +1328,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Jiv phuramaae tiv tiv paahi ||"
-  },
-  {
+  },{
     "id": "line-166",
     "code": "15VH",
     "gurmukhi": "ਜੇਤਾ ਕੀਤਾ ਤੇਤਾ ਨਾਉ ॥",
@@ -1502,8 +1336,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Jetaa keetaa tetaa naau ||"
-  },
-  {
+  },{
     "id": "line-167",
     "code": "9D4Y",
     "gurmukhi": "ਵਿਣੁ ਨਾਵੈ ਨਾਹੀ ਕੋ ਥਾਉ ॥",
@@ -1511,8 +1344,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Vi(nn)u naavai naahee ko thaau ||"
-  },
-  {
+  },{
     "id": "line-168",
     "code": "043J",
     "gurmukhi": "ਕੁਦਰਤਿ ਕਵਣ ਕਹਾ ਵੀਚਾਰੁ ॥",
@@ -1520,8 +1352,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Kudarati kava(nn) kahaa veechaaru ||"
-  },
-  {
+  },{
     "id": "line-169",
     "code": "8F4V",
     "gurmukhi": "ਵਾਰਿਆ ਨ ਜਾਵਾ ਏਕ ਵਾਰ ॥",
@@ -1529,8 +1360,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Vaariaa na jaavaa ek vaar ||"
-  },
-  {
+  },{
     "id": "line-170",
     "code": "BTSX",
     "gurmukhi": "ਜੋ ਤੁਧੁ ਭਾਵੈ ਸਾਈ ਭਲੀ ਕਾਰ ॥",
@@ -1538,8 +1368,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Jo tudhu bhaavai saaee bhalee kaar ||"
-  },
-  {
+  },{
     "id": "line-171",
     "code": "15AZ",
     "gurmukhi": "ਤੂ ਸਦਾ ਸਲਾਮਤਿ ਨਿਰੰਕਾਰ ॥੧੯॥",
@@ -1547,8 +1376,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Too sadaa salaamati nirankkaar ||19||"
-  },
-  {
+  },{
     "id": "line-172",
     "code": "6FSH",
     "gurmukhi": "ਭਰੀਐ ਹਥੁ ਪੈਰੁ ਤਨੁ ਦੇਹ ॥",
@@ -1556,8 +1384,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Bhareeai hathu pairu tanu deh ||"
-  },
-  {
+  },{
     "id": "line-173",
     "code": "22V7",
     "gurmukhi": "ਪਾਣੀ ਧੋਤੈ ਉਤਰਸੁ ਖੇਹ ॥",
@@ -1565,8 +1392,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Paa(nn)ee dhotai utarasu kheh ||"
-  },
-  {
+  },{
     "id": "line-174",
     "code": "LD59",
     "gurmukhi": "ਮੂਤ ਪਲੀਤੀ ਕਪੜੁ ਹੋਇ ॥",
@@ -1574,8 +1400,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Moot paleetee kapa(rr)u hoi ||"
-  },
-  {
+  },{
     "id": "line-175",
     "code": "AXQC",
     "gurmukhi": "ਦੇ ਸਾਬੂਣੁ ਲਈਐ ਓਹੁ ਧੋਇ ॥",
@@ -1583,8 +1408,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "De saaboo(nn)u laeeai ohu dhoi ||"
-  },
-  {
+  },{
     "id": "line-176",
     "code": "3R6D",
     "gurmukhi": "ਭਰੀਐ ਮਤਿ ਪਾਪਾ ਕੈ ਸੰਗਿ ॥",
@@ -1592,8 +1416,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Bhareeai mati paapaa kai sanggi ||"
-  },
-  {
+  },{
     "id": "line-177",
     "code": "H2Z4",
     "gurmukhi": "ਓਹੁ ਧੋਪੈ ਨਾਵੈ ਕੈ ਰੰਗਿ ॥",
@@ -1601,8 +1424,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Ohu dhopai naavai kai ranggi ||"
-  },
-  {
+  },{
     "id": "line-178",
     "code": "5AWU",
     "gurmukhi": "ਪੁੰਨੀ ਪਾਪੀ ਆਖਣੁ ਨਾਹਿ ॥",
@@ -1610,8 +1432,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Punnee paapee aakha(nn)u naahi ||"
-  },
-  {
+  },{
     "id": "line-179",
     "code": "1U42",
     "gurmukhi": "ਕਰਿ ਕਰਿ ਕਰਣਾ ਲਿਖਿ ਲੈ ਜਾਹੁ ॥",
@@ -1619,8 +1440,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Kari kari kara(nn)aa likhi lai jaahu ||"
-  },
-  {
+  },{
     "id": "line-180",
     "code": "VCR2",
     "gurmukhi": "ਆਪੇ ਬੀਜਿ ਆਪੇ ਹੀ ਖਾਹੁ ॥",
@@ -1628,8 +1448,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Aape beeji aape hee khaahu ||"
-  },
-  {
+  },{
     "id": "line-181",
     "code": "JQ73",
     "gurmukhi": "ਨਾਨਕ ਹੁਕਮੀ ਆਵਹੁ ਜਾਹੁ ॥੨੦॥",
@@ -1637,8 +1456,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Naanak hukamee aavahu jaahu ||20||"
-  },
-  {
+  },{
     "id": "line-182",
     "code": "9RPP",
     "gurmukhi": "ਤੀਰਥੁ ਤਪੁ ਦਇਆ ਦਤੁ ਦਾਨੁ ॥",
@@ -1646,8 +1464,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Teerathu tapu daiaa datu daanu ||"
-  },
-  {
+  },{
     "id": "line-183",
     "code": "79QT",
     "gurmukhi": "ਜੇ ਕੋ ਪਾਵੈ ਤਿਲ ਕਾ ਮਾਨੁ ॥",
@@ -1655,8 +1472,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Je ko paavai til kaa maanu ||"
-  },
-  {
+  },{
     "id": "line-184",
     "code": "ND4F",
     "gurmukhi": "ਸੁਣਿਆ ਮੰਨਿਆ ਮਨਿ ਕੀਤਾ ਭਾਉ ॥",
@@ -1664,8 +1480,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Su(nn)iaa manniaa mani keetaa bhaau ||"
-  },
-  {
+  },{
     "id": "line-185",
     "code": "W7L9",
     "gurmukhi": "ਅੰਤਰਗਤਿ ਤੀਰਥਿ ਮਲਿ ਨਾਉ ॥",
@@ -1673,8 +1488,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Anttaragati teerathi mali naau ||"
-  },
-  {
+  },{
     "id": "line-186",
     "code": "6MYT",
     "gurmukhi": "ਸਭਿ ਗੁਣ ਤੇਰੇ ਮੈ ਨਾਹੀ ਕੋਇ ॥",
@@ -1682,8 +1496,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Sabhi gu(nn) tere mai naahee koi ||"
-  },
-  {
+  },{
     "id": "line-187",
     "code": "BCM6",
     "gurmukhi": "ਵਿਣੁ ਗੁਣ ਕੀਤੇ ਭਗਤਿ ਨ ਹੋਇ ॥",
@@ -1691,8 +1504,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Vi(nn)u gu(nn) keete bhagati na hoi ||"
-  },
-  {
+  },{
     "id": "line-188",
     "code": "E30D",
     "gurmukhi": "ਸੁਅਸਤਿ ਆਥਿ ਬਾਣੀ ਬਰਮਾਉ ॥",
@@ -1700,8 +1512,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Suasati aathi baa(nn)ee baramaau ||"
-  },
-  {
+  },{
     "id": "line-189",
     "code": "4SDK",
     "gurmukhi": "ਸਤਿ ਸੁਹਾਣੁ ਸਦਾ ਮਨਿ ਚਾਉ ॥",
@@ -1709,8 +1520,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Sati suhaa(nn)u sadaa mani chaau ||"
-  },
-  {
+  },{
     "id": "line-190",
     "code": "V7HC",
     "gurmukhi": "ਕਵਣੁ ਸੁ ਵੇਲਾ ਵਖਤੁ ਕਵਣੁ ਕਵਣ ਥਿਤਿ ਕਵਣੁ ਵਾਰੁ ॥",
@@ -1718,8 +1528,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Kava(nn)u su velaa vakhatu kava(nn)u kava(nn) thiti kava(nn)u vaaru ||"
-  },
-  {
+  },{
     "id": "line-191",
     "code": "G0TE",
     "gurmukhi": "ਕਵਣਿ ਸਿ ਰੁਤੀ ਮਾਹੁ ਕਵਣੁ ਜਿਤੁ ਹੋਆ ਆਕਾਰੁ ॥",
@@ -1727,8 +1536,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Kava(nn)i si rutee maahu kava(nn)u jitu hoaa aakaaru ||"
-  },
-  {
+  },{
     "id": "line-192",
     "code": "WN0J",
     "gurmukhi": "ਵੇਲ ਨ ਪਾਈਆ ਪੰਡਤੀ ਜਿ ਹੋਵੈ ਲੇਖੁ ਪੁਰਾਣੁ ॥",
@@ -1736,8 +1544,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Vel na paaeeaa panddatee ji hovai lekhu puraa(nn)u ||"
-  },
-  {
+  },{
     "id": "line-193",
     "code": "MP96",
     "gurmukhi": "ਵਖਤੁ ਨ ਪਾਇਓ ਕਾਦੀਆ ਜਿ ਲਿਖਨਿ ਲੇਖੁ ਕੁਰਾਣੁ ॥",
@@ -1745,8 +1552,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Vakhatu na paaio kaadeeaa ji likhani lekhu kuraa(nn)u ||"
-  },
-  {
+  },{
     "id": "line-194",
     "code": "S0KM",
     "gurmukhi": "ਥਿਤਿ ਵਾਰੁ ਨਾ ਜੋਗੀ ਜਾਣੈ ਰੁਤਿ ਮਾਹੁ ਨਾ ਕੋਈ ॥",
@@ -1754,8 +1560,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Thiti vaaru naa jogee jaa(nn)ai ruti maahu naa koee ||"
-  },
-  {
+  },{
     "id": "line-195",
     "code": "YXDC",
     "gurmukhi": "ਜਾ ਕਰਤਾ ਸਿਰਠੀ ਕਉ ਸਾਜੇ ਆਪੇ ਜਾਣੈ ਸੋਈ ॥",
@@ -1763,8 +1568,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Jaa karataa sirathee kau saaje aape jaa(nn)ai soee ||"
-  },
-  {
+  },{
     "id": "line-196",
     "code": "XEQL",
     "gurmukhi": "ਕਿਵ ਕਰਿ ਆਖਾ ਕਿਵ ਸਾਲਾਹੀ ਕਿਉ ਵਰਨੀ ਕਿਵ ਜਾਣਾ ॥",
@@ -1772,17 +1576,15 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "4",
     "english": "Kiv kari aakhaa kiv saalaahee kiu varanee kiv jaa(nn)aa ||"
-  },
-  {
+  },{
     "id": "line-197",
     "code": "RW45",
     "gurmukhi": "ਨਾਨਕ ਆਖਣਿ ਸਭੁ ਕੋ ਆਖੈ ਇਕ ਦੂ ਇਕੁ ਸਿਆਣਾ ॥",
     "translation": "Nanak says everyone attempting to describe the One claims to be wiser than the rest.",
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
-    "Ang": "4",
+    "Ang": "5",
     "english": "Naanak aakha(nn)i sabhu ko aakhai ik doo iku siaa(nn)aa ||"
-  },
-  {
+  },{
     "id": "line-198",
     "code": "FN4U",
     "gurmukhi": "ਵਡਾ ਸਾਹਿਬੁ ਵਡੀ ਨਾਈ ਕੀਤਾ ਜਾ ਕਾ ਹੋਵੈ ॥",
@@ -1790,8 +1592,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Vadaa saahibu vadee naaee keetaa jaa kaa hovai ||"
-  },
-  {
+  },{
     "id": "line-199",
     "code": "SM79",
     "gurmukhi": "ਨਾਨਕ ਜੇ ਕੋ ਆਪੌ ਜਾਣੈ ਅਗੈ ਗਇਆ ਨ ਸੋਹੈ ॥੨੧॥",
@@ -1799,8 +1600,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Naanak je ko aapau jaa(nn)ai agai gaiaa na sohai ||21||"
-  },
-  {
+  },{
     "id": "line-200",
     "code": "YB5R",
     "gurmukhi": "ਪਾਤਾਲਾ ਪਾਤਾਲ ਲਖ ਆਗਾਸਾ ਆਗਾਸ ॥",
@@ -1808,8 +1608,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Paataalaa paataal lakh aagaasaa aagaas ||"
-  },
-  {
+  },{
     "id": "line-201",
     "code": "CWGK",
     "gurmukhi": "ਓੜਕ ਓੜਕ ਭਾਲਿ ਥਕੇ ਵੇਦ ਕਹਨਿ ਇਕ ਵਾਤ ॥",
@@ -1817,8 +1616,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "O(rr)ak o(rr)ak bhaali thake ved kahani ik vaat ||"
-  },
-  {
+  },{
     "id": "line-202",
     "code": "2B00",
     "gurmukhi": "ਸਹਸ ਅਠਾਰਹ ਕਹਨਿ ਕਤੇਬਾ ਅਸੁਲੂ ਇਕੁ ਧਾਤੁ ॥",
@@ -1826,8 +1624,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Sahas athaarah kahani katebaa asuloo iku dhaatu ||"
-  },
-  {
+  },{
     "id": "line-203",
     "code": "1H1W",
     "gurmukhi": "ਲੇਖਾ ਹੋਇ ਤ ਲਿਖੀਐ ਲੇਖੈ ਹੋਇ ਵਿਣਾਸੁ ॥",
@@ -1835,8 +1632,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Lekhaa hoi ta likheeai lekhai hoi vi(nn)aasu ||"
-  },
-  {
+  },{
     "id": "line-204",
     "code": "WR3V",
     "gurmukhi": "ਨਾਨਕ ਵਡਾ ਆਖੀਐ ਆਪੇ ਜਾਣੈ ਆਪੁ ॥੨੨॥",
@@ -1844,8 +1640,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Naanak vadaa aakheeai aape jaa(nn)ai aapu ||22||"
-  },
-  {
+  },{
     "id": "line-205",
     "code": "YTFR",
     "gurmukhi": "ਸਾਲਾਹੀ ਸਾਲਾਹਿ ਏਤੀ ਸੁਰਤਿ ਨ ਪਾਈਆ ॥",
@@ -1853,8 +1648,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Saalaahee saalaahi etee surati na paaeeaa ||"
-  },
-  {
+  },{
     "id": "line-206",
     "code": "5WQP",
     "gurmukhi": "ਨਦੀਆ ਅਤੈ ਵਾਹ ਪਵਹਿ ਸਮੁੰਦਿ ਨ ਜਾਣੀਅਹਿ ॥",
@@ -1862,8 +1656,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Nadeeaa atai vaah pavahi samunddi na jaa(nn)eeahi ||"
-  },
-  {
+  },{
     "id": "line-207",
     "code": "X2T8",
     "gurmukhi": "ਸਮੁੰਦ ਸਾਹ ਸੁਲਤਾਨ ਗਿਰਹਾ ਸੇਤੀ ਮਾਲੁ ਧਨੁ ॥",
@@ -1871,8 +1664,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Samundd saah sulataan girahaa setee maalu dhanu ||"
-  },
-  {
+  },{
     "id": "line-208",
     "code": "5K0J",
     "gurmukhi": "ਕੀੜੀ ਤੁਲਿ ਨ ਹੋਵਨੀ ਜੇ ਤਿਸੁ ਮਨਹੁ ਨ ਵੀਸਰਹਿ ॥੨੩॥",
@@ -1880,8 +1672,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Kee(rr)ee tuli na hovanee je tisu manahu na veesarahi ||23||"
-  },
-  {
+  },{
     "id": "line-209",
     "code": "40DA",
     "gurmukhi": "ਅੰਤੁ ਨ ਸਿਫਤੀ ਕਹਣਿ ਨ ਅੰਤੁ ॥",
@@ -1889,8 +1680,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Anttu na siphatee kaha(nn)i na anttu ||"
-  },
-  {
+  },{
     "id": "line-210",
     "code": "VKD8",
     "gurmukhi": "ਅੰਤੁ ਨ ਕਰਣੈ ਦੇਣਿ ਨ ਅੰਤੁ ॥",
@@ -1898,8 +1688,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Anttu na kara(nn)ai de(nn)i na anttu ||"
-  },
-  {
+  },{
     "id": "line-211",
     "code": "X8NU",
     "gurmukhi": "ਅੰਤੁ ਨ ਵੇਖਣਿ ਸੁਣਣਿ ਨ ਅੰਤੁ ॥",
@@ -1907,8 +1696,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Anttu na vekha(nn)i su(nn)a(nn)i na anttu ||"
-  },
-  {
+  },{
     "id": "line-212",
     "code": "N8DF",
     "gurmukhi": "ਅੰਤੁ ਨ ਜਾਪੈ ਕਿਆ ਮਨਿ ਮੰਤੁ ॥",
@@ -1916,8 +1704,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Anttu na jaapai kiaa mani manttu ||"
-  },
-  {
+  },{
     "id": "line-213",
     "code": "WHBU",
     "gurmukhi": "ਅੰਤੁ ਨ ਜਾਪੈ ਕੀਤਾ ਆਕਾਰੁ ॥",
@@ -1925,8 +1712,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Anttu na jaapai keetaa aakaaru ||"
-  },
-  {
+  },{
     "id": "line-214",
     "code": "5T92",
     "gurmukhi": "ਅੰਤੁ ਨ ਜਾਪੈ ਪਾਰਾਵਾਰੁ ॥",
@@ -1934,8 +1720,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Anttu na jaapai paaraavaaru ||"
-  },
-  {
+  },{
     "id": "line-215",
     "code": "LDZY",
     "gurmukhi": "ਅੰਤ ਕਾਰਣਿ ਕੇਤੇ ਬਿਲਲਾਹਿ ॥",
@@ -1943,8 +1728,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Antt kaara(nn)i kete bilalaahi ||"
-  },
-  {
+  },{
     "id": "line-216",
     "code": "J73M",
     "gurmukhi": "ਤਾ ਕੇ ਅੰਤ ਨ ਪਾਏ ਜਾਹਿ ॥",
@@ -1952,8 +1736,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Taa ke antt na paae jaahi ||"
-  },
-  {
+  },{
     "id": "line-217",
     "code": "CXK7",
     "gurmukhi": "ਏਹੁ ਅੰਤੁ ਨ ਜਾਣੈ ਕੋਇ ॥",
@@ -1961,8 +1744,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Ehu anttu na jaa(nn)ai koi ||"
-  },
-  {
+  },{
     "id": "line-218",
     "code": "WRQ5",
     "gurmukhi": "ਬਹੁਤਾ ਕਹੀਐ ਬਹੁਤਾ ਹੋਇ ॥",
@@ -1970,8 +1752,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Bahutaa kaheeai bahutaa hoi ||"
-  },
-  {
+  },{
     "id": "line-219",
     "code": "0W15",
     "gurmukhi": "ਵਡਾ ਸਾਹਿਬੁ ਊਚਾ ਥਾਉ ॥",
@@ -1979,8 +1760,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Vadaa saahibu uchaa thaau ||"
-  },
-  {
+  },{
     "id": "line-220",
     "code": "E6WZ",
     "gurmukhi": "ਊਚੇ ਉਪਰਿ ਊਚਾ ਨਾਉ ॥",
@@ -1988,8 +1768,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Uche upari uchaa naau ||"
-  },
-  {
+  },{
     "id": "line-221",
     "code": "BLFR",
     "gurmukhi": "ਏਵਡੁ ਊਚਾ ਹੋਵੈ ਕੋਇ ॥",
@@ -1997,8 +1776,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Evadu uchaa hovai koi ||"
-  },
-  {
+  },{
     "id": "line-222",
     "code": "J79G",
     "gurmukhi": "ਤਿਸੁ ਊਚੇ ਕਉ ਜਾਣੈ ਸੋਇ ॥",
@@ -2006,8 +1784,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Tisu uche kau jaa(nn)ai soi ||"
-  },
-  {
+  },{
     "id": "line-223",
     "code": "RMD4",
     "gurmukhi": "ਜੇਵਡੁ ਆਪਿ ਜਾਣੈ ਆਪਿ ਆਪਿ ॥",
@@ -2015,8 +1792,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Jevadu aapi jaa(nn)ai aapi aapi ||"
-  },
-  {
+  },{
     "id": "line-224",
     "code": "W145",
     "gurmukhi": "ਨਾਨਕ ਨਦਰੀ ਕਰਮੀ ਦਾਤਿ ॥੨੪॥",
@@ -2024,8 +1800,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Naanak nadaree karamee daati ||24||"
-  },
-  {
+  },{
     "id": "line-225",
     "code": "YXH5",
     "gurmukhi": "ਬਹੁਤਾ ਕਰਮੁ ਲਿਖਿਆ ਨਾ ਜਾਇ ॥",
@@ -2033,8 +1808,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Bahutaa karamu likhiaa naa jaai ||"
-  },
-  {
+  },{
     "id": "line-226",
     "code": "QRM0",
     "gurmukhi": "ਵਡਾ ਦਾਤਾ ਤਿਲੁ ਨ ਤਮਾਇ ॥",
@@ -2042,8 +1816,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Vadaa daataa tilu na tamaai ||"
-  },
-  {
+  },{
     "id": "line-227",
     "code": "8F5K",
     "gurmukhi": "ਕੇਤੇ ਮੰਗਹਿ ਜੋਧ ਅਪਾਰ ॥",
@@ -2051,8 +1824,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Kete manggahi jodh apaar ||"
-  },
-  {
+  },{
     "id": "line-228",
     "code": "WATD",
     "gurmukhi": "ਕੇਤਿਆ ਗਣਤ ਨਹੀ ਵੀਚਾਰੁ ॥",
@@ -2060,8 +1832,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Ketiaa ga(nn)at nahee veechaaru ||"
-  },
-  {
+  },{
     "id": "line-229",
     "code": "E536",
     "gurmukhi": "ਕੇਤੇ ਖਪਿ ਤੁਟਹਿ ਵੇਕਾਰ ॥",
@@ -2069,8 +1840,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Kete khapi tutahi vekaar ||"
-  },
-  {
+  },{
     "id": "line-230",
     "code": "MZZ6",
     "gurmukhi": "ਕੇਤੇ ਲੈ ਲੈ ਮੁਕਰੁ ਪਾਹਿ ॥",
@@ -2078,8 +1848,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Kete lai lai mukaru paahi ||"
-  },
-  {
+  },{
     "id": "line-231",
     "code": "3N29",
     "gurmukhi": "ਕੇਤੇ ਮੂਰਖ ਖਾਹੀ ਖਾਹਿ ॥",
@@ -2087,8 +1856,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Kete moorakh khaahee khaahi ||"
-  },
-  {
+  },{
     "id": "line-232",
     "code": "TRBN",
     "gurmukhi": "ਕੇਤਿਆ ਦੂਖ ਭੂਖ ਸਦ ਮਾਰ ॥",
@@ -2096,8 +1864,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Ketiaa dookh bhookh sad maar ||"
-  },
-  {
+  },{
     "id": "line-233",
     "code": "5AFL",
     "gurmukhi": "ਏਹਿ ਭਿ ਦਾਤਿ ਤੇਰੀ ਦਾਤਾਰ ॥",
@@ -2105,8 +1872,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Ehi bhi daati teree daataar ||"
-  },
-  {
+  },{
     "id": "line-234",
     "code": "W1JH",
     "gurmukhi": "ਬੰਦਿ ਖਲਾਸੀ ਭਾਣੈ ਹੋਇ ॥",
@@ -2114,8 +1880,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Banddi khalaasee bhaa(nn)ai hoi ||"
-  },
-  {
+  },{
     "id": "line-235",
     "code": "85FC",
     "gurmukhi": "ਹੋਰੁ ਆਖਿ ਨ ਸਕੈ ਕੋਇ ॥",
@@ -2123,8 +1888,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Horu aakhi na sakai koi ||"
-  },
-  {
+  },{
     "id": "line-236",
     "code": "7AFD",
     "gurmukhi": "ਜੇ ਕੋ ਖਾਇਕੁ ਆਖਣਿ ਪਾਇ ॥",
@@ -2132,8 +1896,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Je ko khaaiku aakha(nn)i paai ||"
-  },
-  {
+  },{
     "id": "line-237",
     "code": "R3S4",
     "gurmukhi": "ਓਹੁ ਜਾਣੈ ਜੇਤੀਆ ਮੁਹਿ ਖਾਇ ॥",
@@ -2141,8 +1904,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Ohu jaa(nn)ai jeteeaa muhi khaai ||"
-  },
-  {
+  },{
     "id": "line-238",
     "code": "GXTL",
     "gurmukhi": "ਆਪੇ ਜਾਣੈ ਆਪੇ ਦੇਇ ॥",
@@ -2150,8 +1912,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Aape jaa(nn)ai aape dei ||"
-  },
-  {
+  },{
     "id": "line-239",
     "code": "JWU4",
     "gurmukhi": "ਆਖਹਿ ਸਿ ਭਿ ਕੇਈ ਕੇਇ ॥",
@@ -2159,8 +1920,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Aakhahi si bhi keee kei ||"
-  },
-  {
+  },{
     "id": "line-240",
     "code": "ZDF9",
     "gurmukhi": "ਜਿਸ ਨੋ ਬਖਸੇ ਸਿਫਤਿ ਸਾਲਾਹ ॥",
@@ -2168,8 +1928,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Jis no bakhase siphati saalaah ||"
-  },
-  {
+  },{
     "id": "line-241",
     "code": "B8J0",
     "gurmukhi": "ਨਾਨਕ ਪਾਤਿਸਾਹੀ ਪਾਤਿਸਾਹੁ ॥੨੫॥",
@@ -2177,8 +1936,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Naanak paatisaahee paatisaahu ||25||"
-  },
-  {
+  },{
     "id": "line-242",
     "code": "MU2K",
     "gurmukhi": "ਅਮੁਲ ਗੁਣ ਅਮੁਲ ਵਾਪਾਰ ॥",
@@ -2186,8 +1944,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Amul gu(nn) amul vaapaar ||"
-  },
-  {
+  },{
     "id": "line-243",
     "code": "XEQ3",
     "gurmukhi": "ਅਮੁਲ ਵਾਪਾਰੀਏ ਅਮੁਲ ਭੰਡਾਰ ॥",
@@ -2195,8 +1952,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Amul vaapaareee amul bhanddaar ||"
-  },
-  {
+  },{
     "id": "line-244",
     "code": "EU2A",
     "gurmukhi": "ਅਮੁਲ ਆਵਹਿ ਅਮੁਲ ਲੈ ਜਾਹਿ ॥",
@@ -2204,8 +1960,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Amul aavahi amul lai jaahi ||"
-  },
-  {
+  },{
     "id": "line-245",
     "code": "T80Z",
     "gurmukhi": "ਅਮੁਲ ਭਾਇ ਅਮੁਲਾ ਸਮਾਹਿ ॥",
@@ -2213,8 +1968,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Amul bhaai amulaa samaahi ||"
-  },
-  {
+  },{
     "id": "line-246",
     "code": "0T04",
     "gurmukhi": "ਅਮੁਲੁ ਧਰਮੁ ਅਮੁਲੁ ਦੀਬਾਣੁ ॥",
@@ -2222,8 +1976,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Amulu dharamu amulu deebaa(nn)u ||"
-  },
-  {
+  },{
     "id": "line-247",
     "code": "YH93",
     "gurmukhi": "ਅਮੁਲੁ ਤੁਲੁ ਅਮੁਲੁ ਪਰਵਾਣੁ ॥",
@@ -2231,8 +1984,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Amulu tulu amulu paravaa(nn)u ||"
-  },
-  {
+  },{
     "id": "line-248",
     "code": "7UZX",
     "gurmukhi": "ਅਮੁਲੁ ਬਖਸੀਸ ਅਮੁਲੁ ਨੀਸਾਣੁ ॥",
@@ -2240,8 +1992,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Amulu bakhasees amulu neesaa(nn)u ||"
-  },
-  {
+  },{
     "id": "line-249",
     "code": "NKLS",
     "gurmukhi": "ਅਮੁਲੁ ਕਰਮੁ ਅਮੁਲੁ ਫੁਰਮਾਣੁ ॥",
@@ -2249,8 +2000,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Amulu karamu amulu phuramaa(nn)u ||"
-  },
-  {
+  },{
     "id": "line-250",
     "code": "ABFZ",
     "gurmukhi": "ਅਮੁਲੋ ਅਮੁਲੁ ਆਖਿਆ ਨ ਜਾਇ ॥",
@@ -2258,8 +2008,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Amulo amulu aakhiaa na jaai ||"
-  },
-  {
+  },{
     "id": "line-251",
     "code": "D11C",
     "gurmukhi": "ਆਖਿ ਆਖਿ ਰਹੇ ਲਿਵ ਲਾਇ ॥",
@@ -2267,8 +2016,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Aakhi aakhi rahe liv laai ||"
-  },
-  {
+  },{
     "id": "line-252",
     "code": "99JY",
     "gurmukhi": "ਆਖਹਿ ਵੇਦ ਪਾਠ ਪੁਰਾਣ ॥",
@@ -2276,8 +2024,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Aakhahi ved paath puraa(nn) ||"
-  },
-  {
+  },{
     "id": "line-253",
     "code": "ZEVZ",
     "gurmukhi": "ਆਖਹਿ ਪੜੇ ਕਰਹਿ ਵਖਿਆਣ ॥",
@@ -2285,8 +2032,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Aakhahi pa(rr)e karahi vakhiaa(nn) ||"
-  },
-  {
+  },{
     "id": "line-254",
     "code": "FDPH",
     "gurmukhi": "ਆਖਹਿ ਬਰਮੇ ਆਖਹਿ ਇੰਦ ॥",
@@ -2294,17 +2040,15 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "5",
     "english": "Aakhahi barame aakhahi iandd ||"
-  },
-  {
+  },{
     "id": "line-255",
     "code": "WTLL",
     "gurmukhi": "ਆਖਹਿ ਗੋਪੀ ਤੈ ਗੋਵਿੰਦ ॥",
     "translation": "Krishna and his gopis attempt to express the extent of the One.",
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
-    "Ang": "5",
+    "Ang": "6",
     "english": "Aakhahi gopee tai govindd ||"
-  },
-  {
+  },{
     "id": "line-256",
     "code": "Q9NN",
     "gurmukhi": "ਆਖਹਿ ਈਸਰ ਆਖਹਿ ਸਿਧ ॥",
@@ -2312,8 +2056,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Aakhahi eesar aakhahi sidh ||"
-  },
-  {
+  },{
     "id": "line-257",
     "code": "SQND",
     "gurmukhi": "ਆਖਹਿ ਕੇਤੇ ਕੀਤੇ ਬੁਧ ॥",
@@ -2321,8 +2064,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Aakhahi kete keete budh ||"
-  },
-  {
+  },{
     "id": "line-258",
     "code": "ABKG",
     "gurmukhi": "ਆਖਹਿ ਦਾਨਵ ਆਖਹਿ ਦੇਵ ॥",
@@ -2330,8 +2072,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Aakhahi daanav aakhahi dev ||"
-  },
-  {
+  },{
     "id": "line-259",
     "code": "M8B4",
     "gurmukhi": "ਆਖਹਿ ਸੁਰਿ ਨਰ ਮੁਨਿ ਜਨ ਸੇਵ ॥",
@@ -2339,8 +2080,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Aakhahi suri nar muni jan sev ||"
-  },
-  {
+  },{
     "id": "line-260",
     "code": "3XVL",
     "gurmukhi": "ਕੇਤੇ ਆਖਹਿ ਆਖਣਿ ਪਾਹਿ ॥",
@@ -2348,8 +2088,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Kete aakhahi aakha(nn)i paahi ||"
-  },
-  {
+  },{
     "id": "line-261",
     "code": "71Q6",
     "gurmukhi": "ਕੇਤੇ ਕਹਿ ਕਹਿ ਉਠਿ ਉਠਿ ਜਾਹਿ ॥",
@@ -2357,8 +2096,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Kete kahi kahi uthi uthi jaahi ||"
-  },
-  {
+  },{
     "id": "line-262",
     "code": "4YZF",
     "gurmukhi": "ਏਤੇ ਕੀਤੇ ਹੋਰਿ ਕਰੇਹਿ ॥",
@@ -2366,8 +2104,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Ete keete hori karehi ||"
-  },
-  {
+  },{
     "id": "line-263",
     "code": "F5CB",
     "gurmukhi": "ਤਾ ਆਖਿ ਨ ਸਕਹਿ ਕੇਈ ਕੇਇ ॥",
@@ -2375,8 +2112,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Taa aakhi na sakahi keee kei ||"
-  },
-  {
+  },{
     "id": "line-264",
     "code": "M1HS",
     "gurmukhi": "ਜੇਵਡੁ ਭਾਵੈ ਤੇਵਡੁ ਹੋਇ ॥",
@@ -2384,8 +2120,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Jevadu bhaavai tevadu hoi ||"
-  },
-  {
+  },{
     "id": "line-265",
     "code": "JCDQ",
     "gurmukhi": "ਨਾਨਕ ਜਾਣੈ ਸਾਚਾ ਸੋਇ ॥",
@@ -2393,8 +2128,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Naanak jaa(nn)ai saachaa soi ||"
-  },
-  {
+  },{
     "id": "line-266",
     "code": "33KG",
     "gurmukhi": "ਜੇ ਕੋ ਆਖੈ ਬੋਲੁਵਿਗਾੜੁ ॥",
@@ -2402,8 +2136,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Je ko aakhai boluvigaa(rr)u ||"
-  },
-  {
+  },{
     "id": "line-267",
     "code": "G676",
     "gurmukhi": "ਤਾ ਲਿਖੀਐ ਸਿਰਿ ਗਾਵਾਰਾ ਗਾਵਾਰੁ ॥੨੬॥",
@@ -2411,8 +2144,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Taa likheeai siri gaavaaraa gaavaaru ||26||"
-  },
-  {
+  },{
     "id": "line-268",
     "code": "G6UD",
     "gurmukhi": "ਸੋ ਦਰੁ ਕੇਹਾ ਸੋ ਘਰੁ ਕੇਹਾ ਜਿਤੁ ਬਹਿ ਸਰਬ ਸਮਾਲੇ ॥",
@@ -2420,8 +2152,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "So daru kehaa so gharu kehaa jitu bahi sarab samaale ||"
-  },
-  {
+  },{
     "id": "line-269",
     "code": "3HYE",
     "gurmukhi": "ਵਾਜੇ ਨਾਦ ਅਨੇਕ ਅਸੰਖਾ ਕੇਤੇ ਵਾਵਣਹਾਰੇ ॥",
@@ -2429,8 +2160,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Vaaje naad anek asankkhaa kete vaava(nn)ahaare ||"
-  },
-  {
+  },{
     "id": "line-270",
     "code": "4DUL",
     "gurmukhi": "ਕੇਤੇ ਰਾਗ ਪਰੀ ਸਿਉ ਕਹੀਅਨਿ ਕੇਤੇ ਗਾਵਣਹਾਰੇ ॥",
@@ -2438,8 +2168,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Kete raag paree siu kaheeani kete gaava(nn)ahaare ||"
-  },
-  {
+  },{
     "id": "line-271",
     "code": "WXCD",
     "gurmukhi": "ਗਾਵਹਿ ਤੁਹਨੋ ਪਉਣੁ ਪਾਣੀ ਬੈਸੰਤਰੁ ਗਾਵੈ ਰਾਜਾ ਧਰਮੁ ਦੁਆਰੇ ॥",
@@ -2447,8 +2176,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Gaavahi tuhano pau(nn)u paa(nn)ee baisanttaru gaavai raajaa dharamu duaare ||"
-  },
-  {
+  },{
     "id": "line-272",
     "code": "VNN6",
     "gurmukhi": "ਗਾਵਹਿ ਚਿਤੁ ਗੁਪਤੁ ਲਿਖਿ ਜਾਣਹਿ ਲਿਖਿ ਲਿਖਿ ਧਰਮੁ ਵੀਚਾਰੇ ॥",
@@ -2456,8 +2184,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Gaavahi chitu gupatu likhi jaa(nn)ahi likhi likhi dharamu veechaare ||"
-  },
-  {
+  },{
     "id": "line-273",
     "code": "6DR6",
     "gurmukhi": "ਗਾਵਹਿ ਈਸਰੁ ਬਰਮਾ ਦੇਵੀ ਸੋਹਨਿ ਸਦਾ ਸਵਾਰੇ ॥",
@@ -2465,8 +2192,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Gaavahi eesaru baramaa devee sohani sadaa savaare ||"
-  },
-  {
+  },{
     "id": "line-274",
     "code": "SLHX",
     "gurmukhi": "ਗਾਵਹਿ ਇੰਦ ਇਦਾਸਣਿ ਬੈਠੇ ਦੇਵਤਿਆ ਦਰਿ ਨਾਲੇ ॥",
@@ -2474,8 +2200,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Gaavahi iandd idaasa(nn)i baithe devatiaa dari naale ||"
-  },
-  {
+  },{
     "id": "line-275",
     "code": "TAMR",
     "gurmukhi": "ਗਾਵਹਿ ਸਿਧ ਸਮਾਧੀ ਅੰਦਰਿ ਗਾਵਨਿ ਸਾਧ ਵਿਚਾਰੇ ॥",
@@ -2483,8 +2208,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Gaavahi sidh samaadhee anddari gaavani saadh vichaare ||"
-  },
-  {
+  },{
     "id": "line-276",
     "code": "Z22B",
     "gurmukhi": "ਗਾਵਨਿ ਜਤੀ ਸਤੀ ਸੰਤੋਖੀ ਗਾਵਹਿ ਵੀਰ ਕਰਾਰੇ ॥",
@@ -2492,8 +2216,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Gaavani jatee satee santtokhee gaavahi veer karaare ||"
-  },
-  {
+  },{
     "id": "line-277",
     "code": "NU8S",
     "gurmukhi": "ਗਾਵਨਿ ਪੰਡਿਤ ਪੜਨਿ ਰਖੀਸਰ ਜੁਗੁ ਜੁਗੁ ਵੇਦਾ ਨਾਲੇ ॥",
@@ -2501,8 +2224,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Gaavani panddit pa(rr)ani rakheesar jugu jugu vedaa naale ||"
-  },
-  {
+  },{
     "id": "line-278",
     "code": "BZ16",
     "gurmukhi": "ਗਾਵਹਿ ਮੋਹਣੀਆ ਮਨੁ ਮੋਹਨਿ ਸੁਰਗਾ ਮਛ ਪਇਆਲੇ ॥",
@@ -2510,8 +2232,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Gaavahi moha(nn)eeaa manu mohani suragaa machh paiaale ||"
-  },
-  {
+  },{
     "id": "line-279",
     "code": "RURG",
     "gurmukhi": "ਗਾਵਨਿ ਰਤਨ ਉਪਾਏ ਤੇਰੇ ਅਠਸਠਿ ਤੀਰਥ ਨਾਲੇ ॥",
@@ -2519,8 +2240,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Gaavani ratan upaae tere athasathi teerath naale ||"
-  },
-  {
+  },{
     "id": "line-280",
     "code": "T08A",
     "gurmukhi": "ਗਾਵਹਿ ਜੋਧ ਮਹਾਬਲ ਸੂਰਾ ਗਾਵਹਿ ਖਾਣੀ ਚਾਰੇ ॥",
@@ -2528,8 +2248,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Gaavahi jodh mahaabal sooraa gaavahi khaa(nn)ee chaare ||"
-  },
-  {
+  },{
     "id": "line-281",
     "code": "99PA",
     "gurmukhi": "ਗਾਵਹਿ ਖੰਡ ਮੰਡਲ ਵਰਭੰਡਾ ਕਰਿ ਕਰਿ ਰਖੇ ਧਾਰੇ ॥",
@@ -2537,8 +2256,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Gaavahi khandd manddal varabhanddaa kari kari rakhe dhaare ||"
-  },
-  {
+  },{
     "id": "line-282",
     "code": "SP1N",
     "gurmukhi": "ਸੇਈ ਤੁਧੁਨੋ ਗਾਵਹਿ ਜੋ ਤੁਧੁ ਭਾਵਨਿ ਰਤੇ ਤੇਰੇ ਭਗਤ ਰਸਾਲੇ ॥",
@@ -2546,8 +2264,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Seee tudhuno gaavahi jo tudhu bhaavani rate tere bhagat rasaale ||"
-  },
-  {
+  },{
     "id": "line-283",
     "code": "TB32",
     "gurmukhi": "ਹੋਰਿ ਕੇਤੇ ਗਾਵਨਿ ਸੇ ਮੈ ਚਿਤਿ ਨ ਆਵਨਿ ਨਾਨਕੁ ਕਿਆ ਵੀਚਾਰੇ ॥",
@@ -2555,8 +2272,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Hori kete gaavani se mai chiti na aavani naanaku kiaa veechaare ||"
-  },
-  {
+  },{
     "id": "line-284",
     "code": "3BSB",
     "gurmukhi": "ਸੋਈ ਸੋਈ ਸਦਾ ਸਚੁ ਸਾਹਿਬੁ ਸਾਚਾ ਸਾਚੀ ਨਾਈ ॥",
@@ -2564,8 +2280,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Soee soee sadaa sachu saahibu saachaa saachee naaee ||"
-  },
-  {
+  },{
     "id": "line-285",
     "code": "Q2ZY",
     "gurmukhi": "ਹੈ ਭੀ ਹੋਸੀ ਜਾਇ ਨ ਜਾਸੀ ਰਚਨਾ ਜਿਨਿ ਰਚਾਈ ॥",
@@ -2573,8 +2288,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Hai bhee hosee jaai na jaasee rachanaa jini rachaaee ||"
-  },
-  {
+  },{
     "id": "line-286",
     "code": "MC85",
     "gurmukhi": "ਰੰਗੀ ਰੰਗੀ ਭਾਤੀ ਕਰਿ ਕਰਿ ਜਿਨਸੀ ਮਾਇਆ ਜਿਨਿ ਉਪਾਈ ॥",
@@ -2582,8 +2296,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Ranggee ranggee bhaatee kari kari jinasee maaiaa jini upaaee ||"
-  },
-  {
+  },{
     "id": "line-287",
     "code": "9GWC",
     "gurmukhi": "ਕਰਿ ਕਰਿ ਵੇਖੈ ਕੀਤਾ ਆਪਣਾ ਜਿਵ ਤਿਸ ਦੀ ਵਡਿਆਈ ॥",
@@ -2591,8 +2304,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Kari kari vekhai keetaa aapa(nn)aa jiv tis dee vadiaaee ||"
-  },
-  {
+  },{
     "id": "line-288",
     "code": "5GNH",
     "gurmukhi": "ਜੋ ਤਿਸੁ ਭਾਵੈ ਸੋਈ ਕਰਸੀ ਹੁਕਮੁ ਨ ਕਰਣਾ ਜਾਈ ॥",
@@ -2600,8 +2312,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Jo tisu bhaavai soee karasee hukamu na kara(nn)aa jaaee ||"
-  },
-  {
+  },{
     "id": "line-289",
     "code": "DT5S",
     "gurmukhi": "ਸੋ ਪਾਤਿਸਾਹੁ ਸਾਹਾ ਪਾਤਿਸਾਹਿਬੁ ਨਾਨਕ ਰਹਣੁ ਰਜਾਈ ॥੨੭॥",
@@ -2609,8 +2320,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "So paatisaahu saahaa paatisaahibu naanak raha(nn)u rajaaee ||27||"
-  },
-  {
+  },{
     "id": "line-290",
     "code": "2Y9L",
     "gurmukhi": "ਮੁੰਦਾ ਸੰਤੋਖੁ ਸਰਮੁ ਪਤੁ ਝੋਲੀ ਧਿਆਨ ਕੀ ਕਰਹਿ ਬਿਭੂਤਿ ॥",
@@ -2618,8 +2328,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Munddaa santtokhu saramu patu jholee dhiaan kee karahi bibhooti ||"
-  },
-  {
+  },{
     "id": "line-291",
     "code": "ZEPX",
     "gurmukhi": "ਖਿੰਥਾ ਕਾਲੁ ਕੁਆਰੀ ਕਾਇਆ ਜੁਗਤਿ ਡੰਡਾ ਪਰਤੀਤਿ ॥",
@@ -2627,8 +2336,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Khintthaa kaalu kuaaree kaaiaa jugati danddaa parateeti ||"
-  },
-  {
+  },{
     "id": "line-292",
     "code": "UNDR",
     "gurmukhi": "ਆਈ ਪੰਥੀ ਸਗਲ ਜਮਾਤੀ ਮਨਿ ਜੀਤੈ ਜਗੁ ਜੀਤੁ ॥",
@@ -2636,17 +2344,15 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Aaee pantthee sagal jamaatee mani jeetai jagu jeetu ||"
-  },
-  {
+  },{
     "id": "line-293",
     "code": "CBB2",
     "gurmukhi": "ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥",
     "translation": "I bow, I bow to the One.",
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
-    "Ang": "7",
+    "Ang": "6",
     "english": "Aadesu tisai aadesu ||"
-  },
-  {
+  },{
     "id": "line-294",
     "code": "CBMX",
     "gurmukhi": "ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥੨੮॥",
@@ -2654,8 +2360,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Aadi aneelu anaadi anaahati jugu jugu eko vesu ||28||"
-  },
-  {
+  },{
     "id": "line-295",
     "code": "FFJA",
     "gurmukhi": "ਭੁਗਤਿ ਗਿਆਨੁ ਦਇਆ ਭੰਡਾਰਣਿ ਘਟਿ ਘਟਿ ਵਾਜਹਿ ਨਾਦ ॥",
@@ -2663,8 +2368,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Bhugati giaanu daiaa bhanddaara(nn)i ghati ghati vaajahi naad ||"
-  },
-  {
+  },{
     "id": "line-296",
     "code": "6V6K",
     "gurmukhi": "ਆਪਿ ਨਾਥੁ ਨਾਥੀ ਸਭ ਜਾ ਕੀ ਰਿਧਿ ਸਿਧਿ ਅਵਰਾ ਸਾਦ ॥",
@@ -2672,8 +2376,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Aapi naathu naathee sabh jaa kee ridhi sidhi avaraa saad ||"
-  },
-  {
+  },{
     "id": "line-297",
     "code": "8TCX",
     "gurmukhi": "ਸੰਜੋਗੁ ਵਿਜੋਗੁ ਦੁਇ ਕਾਰ ਚਲਾਵਹਿ ਲੇਖੇ ਆਵਹਿ ਭਾਗ ॥",
@@ -2681,8 +2384,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "6",
     "english": "Sanjjogu vijogu dui kaar chalaavahi lekhe aavahi bhaag ||"
-  },
-  {
+  },{
     "id": "line-298",
     "code": "481K",
     "gurmukhi": "ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥",
@@ -2690,8 +2392,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Aadesu tisai aadesu ||"
-  },
-  {
+  },{
     "id": "line-299",
     "code": "0QT9",
     "gurmukhi": "ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥੨੯॥",
@@ -2699,8 +2400,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Aadi aneelu anaadi anaahati jugu jugu eko vesu ||29||"
-  },
-  {
+  },{
     "id": "line-300",
     "code": "7F2E",
     "gurmukhi": "ਏਕਾ ਮਾਈ ਜੁਗਤਿ ਵਿਆਈ ਤਿਨਿ ਚੇਲੇ ਪਰਵਾਣੁ ॥",
@@ -2708,8 +2408,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Ekaa maaee jugati viaaee tini chele paravaa(nn)u ||"
-  },
-  {
+  },{
     "id": "line-301",
     "code": "VRZR",
     "gurmukhi": "ਇਕੁ ਸੰਸਾਰੀ ਇਕੁ ਭੰਡਾਰੀ ਇਕੁ ਲਾਏ ਦੀਬਾਣੁ ॥",
@@ -2717,8 +2416,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Iku sanssaaree iku bhanddaaree iku laae deebaa(nn)u ||"
-  },
-  {
+  },{
     "id": "line-302",
     "code": "6Q3P",
     "gurmukhi": "ਜਿਵ ਤਿਸੁ ਭਾਵੈ ਤਿਵੈ ਚਲਾਵੈ ਜਿਵ ਹੋਵੈ ਫੁਰਮਾਣੁ ॥",
@@ -2726,8 +2424,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Jiv tisu bhaavai tivai chalaavai jiv hovai phuramaa(nn)u ||"
-  },
-  {
+  },{
     "id": "line-303",
     "code": "YMXX",
     "gurmukhi": "ਓਹੁ ਵੇਖੈ ਓਨਾ ਨਦਰਿ ਨ ਆਵੈ ਬਹੁਤਾ ਏਹੁ ਵਿਡਾਣੁ ॥",
@@ -2735,8 +2432,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Ohu vekhai onaa nadari na aavai bahutaa ehu vidaa(nn)u ||"
-  },
-  {
+  },{
     "id": "line-304",
     "code": "A3DN",
     "gurmukhi": "ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥",
@@ -2744,8 +2440,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Aadesu tisai aadesu ||"
-  },
-  {
+  },{
     "id": "line-305",
     "code": "2JDC",
     "gurmukhi": "ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥੩੦॥",
@@ -2753,8 +2448,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Aadi aneelu anaadi anaahati jugu jugu eko vesu ||30||"
-  },
-  {
+  },{
     "id": "line-306",
     "code": "6YHD",
     "gurmukhi": "ਆਸਣੁ ਲੋਇ ਲੋਇ ਭੰਡਾਰ ॥",
@@ -2762,8 +2456,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Aasa(nn)u loi loi bhanddaar ||"
-  },
-  {
+  },{
     "id": "line-307",
     "code": "3AYC",
     "gurmukhi": "ਜੋ ਕਿਛੁ ਪਾਇਆ ਸੁ ਏਕਾ ਵਾਰ ॥",
@@ -2771,8 +2464,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Jo kichhu paaiaa su ekaa vaar ||"
-  },
-  {
+  },{
     "id": "line-308",
     "code": "SKBT",
     "gurmukhi": "ਕਰਿ ਕਰਿ ਵੇਖੈ ਸਿਰਜਣਹਾਰੁ ॥",
@@ -2780,8 +2472,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Kari kari vekhai siraja(nn)ahaaru ||"
-  },
-  {
+  },{
     "id": "line-309",
     "code": "E1CC",
     "gurmukhi": "ਨਾਨਕ ਸਚੇ ਕੀ ਸਾਚੀ ਕਾਰ ॥",
@@ -2789,8 +2480,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Naanak sache kee saachee kaar ||"
-  },
-  {
+  },{
     "id": "line-310",
     "code": "9STB",
     "gurmukhi": "ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥",
@@ -2798,8 +2488,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Aadesu tisai aadesu ||"
-  },
-  {
+  },{
     "id": "line-311",
     "code": "1RNS",
     "gurmukhi": "ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥੩੧॥",
@@ -2807,8 +2496,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Aadi aneelu anaadi anaahati jugu jugu eko vesu ||31||"
-  },
-  {
+  },{
     "id": "line-312",
     "code": "FZ3S",
     "gurmukhi": "ਇਕ ਦੂ ਜੀਭੌ ਲਖ ਹੋਹਿ ਲਖ ਹੋਵਹਿ ਲਖ ਵੀਸ ॥",
@@ -2816,8 +2504,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Ik doo jeebhau lakh hohi lakh hovahi lakh vees ||"
-  },
-  {
+  },{
     "id": "line-313",
     "code": "QG45",
     "gurmukhi": "ਲਖੁ ਲਖੁ ਗੇੜਾ ਆਖੀਅਹਿ ਏਕੁ ਨਾਮੁ ਜਗਦੀਸ ॥",
@@ -2825,8 +2512,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Lakhu lakhu ge(rr)aa aakheeahi eku naamu jagadees ||"
-  },
-  {
+  },{
     "id": "line-314",
     "code": "6PAP",
     "gurmukhi": "ਏਤੁ ਰਾਹਿ ਪਤਿ ਪਵੜੀਆ ਚੜੀਐ ਹੋਇ ਇਕੀਸ॥",
@@ -2834,8 +2520,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Etu raahi pati pava(rr)eeaa cha(rr)eeai hoi ikees ||"
-  },
-  {
+  },{
     "id": "line-315",
     "code": "AGTS",
     "gurmukhi": "ਸੁਣਿ ਗਲਾ ਆਕਾਸ ਕੀ ਕੀਟਾ ਆਈ ਰੀਸ ॥",
@@ -2843,8 +2528,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Su(nn)i galaa aakaas kee keetaa aaee rees ||"
-  },
-  {
+  },{
     "id": "line-316",
     "code": "HT8B",
     "gurmukhi": "ਨਾਨਕ ਨਦਰੀ ਪਾਈਐ ਕੂੜੀ ਕੂੜੈ ਠੀਸ ॥੩੨॥",
@@ -2852,8 +2536,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Naanak nadaree paaeeai koo(rr)ee koo(rr)ai thees ||32||"
-  },
-  {
+  },{
     "id": "line-317",
     "code": "NW8V",
     "gurmukhi": "ਆਖਣਿ ਜੋਰੁ ਚੁਪੈ ਨਹ ਜੋਰੁ ॥",
@@ -2861,8 +2544,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Aakha(nn)i joru chupai nah joru ||"
-  },
-  {
+  },{
     "id": "line-318",
     "code": "8XBB",
     "gurmukhi": "ਜੋਰੁ ਨ ਮੰਗਣਿ ਦੇਣਿ ਨ ਜੋਰੁ ॥",
@@ -2870,8 +2552,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Joru na mangga(nn)i de(nn)i na joru ||"
-  },
-  {
+  },{
     "id": "line-319",
     "code": "P07R",
     "gurmukhi": "ਜੋਰੁ ਨ ਜੀਵਣਿ ਮਰਣਿ ਨਹ ਜੋਰੁ ॥",
@@ -2879,8 +2560,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Joru na jeeva(nn)i mara(nn)i nah joru ||"
-  },
-  {
+  },{
     "id": "line-320",
     "code": "YKT7",
     "gurmukhi": "ਜੋਰੁ ਨ ਰਾਜਿ ਮਾਲਿ ਮਨਿ ਸੋਰੁ ॥",
@@ -2888,8 +2568,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Joru na raaji maali mani soru ||"
-  },
-  {
+  },{
     "id": "line-321",
     "code": "0GPM",
     "gurmukhi": "ਜੋਰੁ ਨ ਸੁਰਤੀ ਗਿਆਨਿ ਵੀਚਾਰਿ ॥",
@@ -2897,8 +2576,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Joru na suratee giaani veechaari ||"
-  },
-  {
+  },{
     "id": "line-322",
     "code": "WQC9",
     "gurmukhi": "ਜੋਰੁ ਨ ਜੁਗਤੀ ਛੁਟੈ ਸੰਸਾਰੁ ॥",
@@ -2906,8 +2584,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Joru na jugatee chhutai sanssaaru ||"
-  },
-  {
+  },{
     "id": "line-323",
     "code": "BPJS",
     "gurmukhi": "ਜਿਸੁ ਹਥਿ ਜੋਰੁ ਕਰਿ ਵੇਖੈ ਸੋਇ ॥",
@@ -2915,8 +2592,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Jisu hathi joru kari vekhai soi ||"
-  },
-  {
+  },{
     "id": "line-324",
     "code": "FWE0",
     "gurmukhi": "ਨਾਨਕ ਉਤਮੁ ਨੀਚੁ ਨ ਕੋਇ ॥੩੩॥",
@@ -2924,8 +2600,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Naanak utamu neechu na koi ||33||"
-  },
-  {
+  },{
     "id": "line-325",
     "code": "KCH3",
     "gurmukhi": "ਰਾਤੀ ਰੁਤੀ ਥਿਤੀ ਵਾਰ ॥",
@@ -2933,8 +2608,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Raatee rutee thitee vaar ||"
-  },
-  {
+  },{
     "id": "line-326",
     "code": "ZREW",
     "gurmukhi": "ਪਵਣ ਪਾਣੀ ਅਗਨੀ ਪਾਤਾਲ ॥",
@@ -2942,8 +2616,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Pava(nn) paa(nn)ee aganee paataal ||"
-  },
-  {
+  },{
     "id": "line-327",
     "code": "U8TR",
     "gurmukhi": "ਤਿਸੁ ਵਿਚਿ ਧਰਤੀ ਥਾਪਿ ਰਖੀ ਧਰਮ ਸਾਲ ॥",
@@ -2951,8 +2624,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Tisu vichi dharatee thaapi rakhee dharam saal ||"
-  },
-  {
+  },{
     "id": "line-328",
     "code": "5KTJ",
     "gurmukhi": "ਤਿਸੁ ਵਿਚਿ ਜੀਅ ਜੁਗਤਿ ਕੇ ਰੰਗ ॥",
@@ -2960,8 +2632,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Tisu vichi jeea jugati ke rangg ||"
-  },
-  {
+  },{
     "id": "line-329",
     "code": "3TLN",
     "gurmukhi": "ਤਿਨ ਕੇ ਨਾਮ ਅਨੇਕ ਅਨੰਤ ॥",
@@ -2969,8 +2640,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Tin ke naam anek anantt ||"
-  },
-  {
+  },{
     "id": "line-330",
     "code": "AKMD",
     "gurmukhi": "ਕਰਮੀ ਕਰਮੀ ਹੋਇ ਵੀਚਾਰੁ ॥",
@@ -2978,8 +2648,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Karamee karamee hoi veechaaru ||"
-  },
-  {
+  },{
     "id": "line-331",
     "code": "Q66G",
     "gurmukhi": "ਸਚਾ ਆਪਿ ਸਚਾ ਦਰਬਾਰੁ ॥",
@@ -2987,8 +2656,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Sachaa aapi sachaa darabaaru ||"
-  },
-  {
+  },{
     "id": "line-332",
     "code": "7RB7",
     "gurmukhi": "ਤਿਥੈ ਸੋਹਨਿ ਪੰਚ ਪਰਵਾਣੁ ॥",
@@ -2996,8 +2664,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Tithai sohani pancch paravaa(nn)u ||"
-  },
-  {
+  },{
     "id": "line-333",
     "code": "U1LH",
     "gurmukhi": "ਨਦਰੀ ਕਰਮਿ ਪਵੈ ਨੀਸਾਣੁ ॥",
@@ -3005,8 +2672,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Nadaree karami pavai neesaa(nn)u ||"
-  },
-  {
+  },{
     "id": "line-334",
     "code": "U24Q",
     "gurmukhi": "ਕਚ ਪਕਾਈ ਓਥੈ ਪਾਇ ॥",
@@ -3014,8 +2680,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Kach pakaaee othai paai ||"
-  },
-  {
+  },{
     "id": "line-335",
     "code": "7VQN",
     "gurmukhi": "ਨਾਨਕ ਗਇਆ ਜਾਪੈ ਜਾਇ ॥੩੪॥",
@@ -3023,8 +2688,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Naanak gaiaa jaapai jaai ||34||"
-  },
-  {
+  },{
     "id": "line-336",
     "code": "24CD",
     "gurmukhi": "ਧਰਮ ਖੰਡ ਕਾ ਏਹੋ ਧਰਮੁ ॥",
@@ -3032,8 +2696,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Dharam khandd kaa eho dharamu ||"
-  },
-  {
+  },{
     "id": "line-337",
     "code": "K1RK",
     "gurmukhi": "ਗਿਆਨ ਖੰਡ ਕਾ ਆਖਹੁ ਕਰਮੁ ॥",
@@ -3041,8 +2704,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Giaan khandd kaa aakhahu karamu ||"
-  },
-  {
+  },{
     "id": "line-338",
     "code": "N50P",
     "gurmukhi": "ਕੇਤੇ ਪਵਣ ਪਾਣੀ ਵੈਸੰਤਰ ਕੇਤੇ ਕਾਨ ਮਹੇਸ ॥",
@@ -3050,8 +2712,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Kete pava(nn) paa(nn)ee vaisanttar kete kaan mahes ||"
-  },
-  {
+  },{
     "id": "line-339",
     "code": "4WPT",
     "gurmukhi": "ਕੇਤੇ ਬਰਮੇ ਘਾੜਤਿ ਘੜੀਅਹਿ ਰੂਪ ਰੰਗ ਕੇ ਵੇਸ ॥",
@@ -3059,8 +2720,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Kete barame ghaa(rr)ati gha(rr)eeahi roop rangg ke ves ||"
-  },
-  {
+  },{
     "id": "line-340",
     "code": "FEM5",
     "gurmukhi": "ਕੇਤੀਆ ਕਰਮ ਭੂਮੀ ਮੇਰ ਕੇਤੇ ਕੇਤੇ ਧੂ ਉਪਦੇਸ ॥",
@@ -3068,8 +2728,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Keteeaa karam bhoomee mer kete kete dhoo upades ||"
-  },
-  {
+  },{
     "id": "line-341",
     "code": "Q0HU",
     "gurmukhi": "ਕੇਤੇ ਇੰਦ ਚੰਦ ਸੂਰ ਕੇਤੇ ਕੇਤੇ ਮੰਡਲ ਦੇਸ ॥",
@@ -3077,8 +2736,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Kete iandd chandd soor kete kete manddal des ||"
-  },
-  {
+  },{
     "id": "line-342",
     "code": "D1W9",
     "gurmukhi": "ਕੇਤੇ ਸਿਧ ਬੁਧ ਨਾਥ ਕੇਤੇ ਕੇਤੇ ਦੇਵੀ ਵੇਸ ॥",
@@ -3086,8 +2744,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Kete sidh budh naath kete kete devee ves ||"
-  },
-  {
+  },{
     "id": "line-343",
     "code": "1Q0R",
     "gurmukhi": "ਕੇਤੇ ਦੇਵ ਦਾਨਵ ਮੁਨਿ ਕੇਤੇ ਕੇਤੇ ਰਤਨ ਸਮੁੰਦ ॥",
@@ -3095,8 +2752,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Kete dev daanav muni kete kete ratan samundd ||"
-  },
-  {
+  },{
     "id": "line-344",
     "code": "2ZEN",
     "gurmukhi": "ਕੇਤੀਆ ਖਾਣੀ ਕੇਤੀਆ ਬਾਣੀ ਕੇਤੇ ਪਾਤ ਨਰਿੰਦ ॥",
@@ -3104,8 +2760,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Keteeaa khaa(nn)ee keteeaa baa(nn)ee kete paat narindd ||"
-  },
-  {
+  },{
     "id": "line-345",
     "code": "LWRF",
     "gurmukhi": "ਕੇਤੀਆ ਸੁਰਤੀ ਸੇਵਕ ਕੇਤੇ ਨਾਨਕ ਅੰਤੁ ਨ ਅੰਤੁ ॥੩੫॥",
@@ -3113,8 +2768,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Keteeaa suratee sevak kete naanak anttu na anttu ||35||"
-  },
-  {
+  },{
     "id": "line-346",
     "code": "RSBW",
     "gurmukhi": "ਗਿਆਨ ਖੰਡ ਮਹਿ ਗਿਆਨੁ ਪਰਚੰਡੁ ॥",
@@ -3122,8 +2776,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Giaan khandd mahi giaanu parachanddu ||"
-  },
-  {
+  },{
     "id": "line-347",
     "code": "K59J",
     "gurmukhi": "ਤਿਥੈ ਨਾਦ ਬਿਨੋਦ ਕੋਡ ਅਨੰਦੁ ॥",
@@ -3131,17 +2784,15 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "7",
     "english": "Tithai naad binod kod ananddu ||"
-  },
-  {
+  },{
     "id": "line-348",
     "code": "RZ2R",
     "gurmukhi": "ਸਰਮ ਖੰਡ ਕੀ ਬਾਣੀ ਰੂਪੁ ॥",
     "translation": "The realm of humility makes you truly beautiful.",
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
-    "Ang": "7",
+    "Ang": "8",
     "english": "Saram khandd kee baa(nn)ee roopu ||"
-  },
-  {
+  },{
     "id": "line-349",
     "code": "L3PT",
     "gurmukhi": "ਤਿਥੈ ਘਾੜਤਿ ਘੜੀਐ ਬਹੁਤੁ ਅਨੂਪੁ ॥",
@@ -3149,8 +2800,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Tithai ghaa(rr)ati gha(rr)eeai bahutu anoopu ||"
-  },
-  {
+  },{
     "id": "line-350",
     "code": "C8DN",
     "gurmukhi": "ਤਾ ਕੀਆ ਗਲਾ ਕਥੀਆ ਨਾ ਜਾਹਿ ॥",
@@ -3158,8 +2808,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Taa keeaa galaa katheeaa naa jaahi ||"
-  },
-  {
+  },{
     "id": "line-351",
     "code": "Z1ZK",
     "gurmukhi": "ਜੇ ਕੋ ਕਹੈ ਪਿਛੈ ਪਛੁਤਾਇ ॥",
@@ -3167,8 +2816,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Je ko kahai pichhai pachhutaai ||"
-  },
-  {
+  },{
     "id": "line-352",
     "code": "4Q9F",
     "gurmukhi": "ਤਿਥੈ ਘੜੀਐ ਸੁਰਤਿ ਮਤਿ ਮਨਿ ਬੁਧਿ ॥",
@@ -3176,8 +2824,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Tithai gha(rr)eeai surati mati mani budhi ||"
-  },
-  {
+  },{
     "id": "line-353",
     "code": "AMXU",
     "gurmukhi": "ਤਿਥੈ ਘੜੀਐ ਸੁਰਾ ਸਿਧਾ ਕੀ ਸੁਧਿ ॥੩੬॥",
@@ -3185,8 +2832,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Tithai gha(rr)eeai suraa sidhaa kee sudhi ||36||"
-  },
-  {
+  },{
     "id": "line-354",
     "code": "5ULX",
     "gurmukhi": "ਕਰਮ ਖੰਡ ਕੀ ਬਾਣੀ ਜੋਰੁ ॥",
@@ -3194,8 +2840,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Karam khandd kee baa(nn)ee joru ||"
-  },
-  {
+  },{
     "id": "line-355",
     "code": "BJM6",
     "gurmukhi": "ਤਿਥੈ ਹੋਰੁ ਨ ਕੋਈ ਹੋਰੁ ॥",
@@ -3203,8 +2848,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Tithai horu na koee horu ||"
-  },
-  {
+  },{
     "id": "line-356",
     "code": "BNJ2",
     "gurmukhi": "ਤਿਥੈ ਜੋਧ ਮਹਾਬਲ ਸੂਰ ॥",
@@ -3212,8 +2856,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Tithai jodh mahaabal soor ||"
-  },
-  {
+  },{
     "id": "line-357",
     "code": "7VNW",
     "gurmukhi": "ਤਿਨ ਮਹਿ ਰਾਮੁ ਰਹਿਆ ਭਰਪੂਰ ॥",
@@ -3221,8 +2864,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Tin mahi raamu rahiaa bharapoor ||"
-  },
-  {
+  },{
     "id": "line-358",
     "code": "WE5M",
     "gurmukhi": "ਤਿਥੈ ਸੀਤੋ ਸੀਤਾ ਮਹਿਮਾ ਮਾਹਿ ॥",
@@ -3230,8 +2872,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Tithai seeto seetaa mahimaa maahi ||"
-  },
-  {
+  },{
     "id": "line-359",
     "code": "9LXP",
     "gurmukhi": "ਤਾ ਕੇ ਰੂਪ ਨ ਕਥਨੇ ਜਾਹਿ ॥",
@@ -3239,8 +2880,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Taa ke roop na kathane jaahi ||"
-  },
-  {
+  },{
     "id": "line-360",
     "code": "YCB7",
     "gurmukhi": "ਨਾ ਓਹਿ ਮਰਹਿ ਨ ਠਾਗੇ ਜਾਹਿ ॥",
@@ -3248,8 +2888,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Naa ohi marahi na thaage jaahi ||"
-  },
-  {
+  },{
     "id": "line-361",
     "code": "7V61",
     "gurmukhi": "ਜਿਨ ਕੈ ਰਾਮੁ ਵਸੈ ਮਨ ਮਾਹਿ ॥",
@@ -3257,8 +2896,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Jin kai raamu vasai man maahi ||"
-  },
-  {
+  },{
     "id": "line-362",
     "code": "MT5G",
     "gurmukhi": "ਤਿਥੈ ਭਗਤ ਵਸਹਿ ਕੇ ਲੋਅ ॥",
@@ -3266,8 +2904,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Tithai bhagat vasahi ke loa ||"
-  },
-  {
+  },{
     "id": "line-363",
     "code": "UMUK",
     "gurmukhi": "ਕਰਹਿ ਅਨੰਦੁ ਸਚਾ ਮਨਿ ਸੋਇ ॥",
@@ -3275,8 +2912,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Karahi ananddu sachaa mani soi ||"
-  },
-  {
+  },{
     "id": "line-364",
     "code": "RQ4A",
     "gurmukhi": "ਸਚ ਖੰਡਿ ਵਸੈ ਨਿਰੰਕਾਰੁ ॥",
@@ -3284,8 +2920,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Sach khanddi vasai nirankkaaru ||"
-  },
-  {
+  },{
     "id": "line-365",
     "code": "ANCE",
     "gurmukhi": "ਕਰਿ ਕਰਿ ਵੇਖੈ ਨਦਰਿ ਨਿਹਾਲ ॥",
@@ -3293,8 +2928,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Kari kari vekhai nadari nihaal ||"
-  },
-  {
+  },{
     "id": "line-366",
     "code": "GSN9",
     "gurmukhi": "ਤਿਥੈ ਖੰਡ ਮੰਡਲ ਵਰਭੰਡ ॥",
@@ -3302,8 +2936,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Tithai khandd manddal varabhandd ||"
-  },
-  {
+  },{
     "id": "line-367",
     "code": "VG6U",
     "gurmukhi": "ਜੇ ਕੋ ਕਥੈ ਤ ਅੰਤ ਨ ਅੰਤ ॥",
@@ -3311,8 +2944,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Je ko kathai ta antt na antt ||"
-  },
-  {
+  },{
     "id": "line-368",
     "code": "MDYU",
     "gurmukhi": "ਤਿਥੈ ਲੋਅ ਲੋਅ ਆਕਾਰ ॥",
@@ -3320,8 +2952,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Tithai loa loa aakaar ||"
-  },
-  {
+  },{
     "id": "line-369",
     "code": "UHV5",
     "gurmukhi": "ਜਿਵ ਜਿਵ ਹੁਕਮੁ ਤਿਵੈ ਤਿਵ ਕਾਰ ॥",
@@ -3329,8 +2960,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Jiv jiv hukamu tivai tiv kaar ||"
-  },
-  {
+  },{
     "id": "line-370",
     "code": "2953",
     "gurmukhi": "ਵੇਖੈ ਵਿਗਸੈ ਕਰਿ ਵੀਚਾਰੁ ॥",
@@ -3338,8 +2968,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Vekhai vigasai kari veechaaru ||"
-  },
-  {
+  },{
     "id": "line-371",
     "code": "9AJ4",
     "gurmukhi": "ਨਾਨਕ ਕਥਨਾ ਕਰੜਾ ਸਾਰੁ ॥੩੭॥",
@@ -3347,8 +2976,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Naanak kathanaa kara(rr)aa saaru ||37||"
-  },
-  {
+  },{
     "id": "line-372",
     "code": "BEWM",
     "gurmukhi": "ਜਤੁ ਪਾਹਾਰਾ ਧੀਰਜੁ ਸੁਨਿਆਰੁ ॥",
@@ -3356,8 +2984,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Jatu paahaaraa dheeraju suniaaru ||"
-  },
-  {
+  },{
     "id": "line-373",
     "code": "XXEE",
     "gurmukhi": "ਅਹਰਣਿ ਮਤਿ ਵੇਦੁ ਹਥੀਆਰੁ ॥",
@@ -3365,8 +2992,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Ahara(nn)i mati vedu hatheeaaru ||"
-  },
-  {
+  },{
     "id": "line-374",
     "code": "0VWK",
     "gurmukhi": "ਭਉ ਖਲਾ ਅਗਨਿ ਤਪ ਤਾਉ ॥",
@@ -3374,8 +3000,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Bhau khalaa agani tap taau ||"
-  },
-  {
+  },{
     "id": "line-375",
     "code": "9762",
     "gurmukhi": "ਭਾਂਡਾ ਭਾਉ ਅੰਮ੍ਰਿਤੁ ਤਿਤੁ ਢਾਲਿ ॥",
@@ -3383,8 +3008,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Bhaandaa bhaau ammmritu titu dhaali ||"
-  },
-  {
+  },{
     "id": "line-376",
     "code": "766E",
     "gurmukhi": "ਘੜੀਐ ਸਬਦੁ ਸਚੀ ਟਕਸਾਲ ॥",
@@ -3392,8 +3016,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Gha(rr)eeai sabadu sachee takasaal ||"
-  },
-  {
+  },{
     "id": "line-377",
     "code": "C1Y3",
     "gurmukhi": "ਜਿਨ ਕਉ ਨਦਰਿ ਕਰਮੁ ਤਿਨ ਕਾਰ ॥",
@@ -3401,8 +3024,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Jin kau nadari karamu tin kaar ||"
-  },
-  {
+  },{
     "id": "line-378",
     "code": "K552",
     "gurmukhi": "ਨਾਨਕ ਨਦਰੀ ਨਦਰਿ ਨਿਹਾਲ ॥੩੮॥",
@@ -3410,8 +3032,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Naanak nadaree nadari nihaal ||38||"
-  },
-  {
+  },{
     "id": "line-379",
     "code": "XQLL",
     "gurmukhi": "ਸਲੋਕੁ ॥",
@@ -3419,8 +3040,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Saloku ||"
-  },
-  {
+  },{
     "id": "line-380",
     "code": "62FB",
     "gurmukhi": "ਪਵਣੁ ਗੁਰੂ ਪਾਣੀ ਪਿਤਾ ਮਾਤਾ ਧਰਤਿ ਮਹਤੁ ॥",
@@ -3428,8 +3048,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Pava(nn)u guroo paa(nn)ee pitaa maataa dharati mahatu ||"
-  },
-  {
+  },{
     "id": "line-381",
     "code": "8TXG",
     "gurmukhi": "ਦਿਵਸੁ ਰਾਤਿ ਦੁਇ ਦਾਈ ਦਾਇਆ ਖੇਲੈ ਸਗਲ ਜਗਤੁ ॥",
@@ -3437,8 +3056,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Divasu raati dui daaee daaiaa khelai sagal jagatu ||"
-  },
-  {
+  },{
     "id": "line-382",
     "code": "Q495",
     "gurmukhi": "ਚੰਗਿਆਈਆ ਬੁਰਿਆਈਆ ਵਾਚੈ ਧਰਮੁ ਹਦੂਰਿ ॥",
@@ -3446,8 +3064,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Changgiaaeeaa buriaaeeaa vaachai dharamu hadoori ||"
-  },
-  {
+  },{
     "id": "line-383",
     "code": "2D8J",
     "gurmukhi": "ਕਰਮੀ ਆਪੋ ਆਪਣੀ ਕੇ ਨੇੜੈ ਕੇ ਦੂਰਿ ॥",
@@ -3455,8 +3072,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Karamee aapo aapa(nn)ee ke ne(rr)ai ke doori ||"
-  },
-  {
+  },{
     "id": "line-384",
     "code": "V9TG",
     "gurmukhi": "ਜਿਨੀ ਨਾਮੁ ਧਿਆਇਆ ਗਏ ਮਸਕਤਿ ਘਾਲਿ ॥",
@@ -3464,8 +3080,7 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [
     "translationSource": "BOS - Baljit Singh & Preetcharan Singh",
     "Ang": "8",
     "english": "Jinee naamu dhiaaiaa gae masakati ghaali ||"
-  },
-  {
+  },{
     "id": "line-385",
     "code": "9WAL",
     "gurmukhi": "ਨਾਨਕ ਤੇ ਮੁਖ ਉਜਲੇ ਕੇਤੀ ਛੁਟੀ ਨਾਲਿ ॥੧॥",
