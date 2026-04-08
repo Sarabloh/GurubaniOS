@@ -3125,8 +3125,8 @@ export const SHABAD_COLLECTIONS: Record<ShabadCollectionKey, ShabadCollection> =
   },
   caupai: {
     id: 'caupai',
-    title: 'Caupai Sahib || ਚੌਪਈ ਸਾਹਿਬ',
-    description: 'Caupai Sahib path with text-only searching',
+    title: 'Chaupai Sahib || ਚੌਪਈ ਸਾਹਿਬ',
+    description: 'Chaupai Sahib path with text-only searching',
     lines: CAUPAI_SHABAD_LINES,
     supportsAng: false,
   },
