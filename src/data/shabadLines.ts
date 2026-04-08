@@ -1,4 +1,4 @@
-import CAUPAI_SHABAD_DATA from './CaupaiSaheb.json';
+import CAUPAI_SHABAD_DATA from './ChaupaiSaheb.json';
 
 export interface ShabadLine {
   id: string;
@@ -10,7 +10,7 @@ export interface ShabadLine {
   english?: string;
 }
 
-export type ShabadCollectionKey = 'japji' | 'caupai';
+export type ShabadCollectionKey = 'japji' | 'chaupai';
 
 export interface ShabadCollection {
   id: ShabadCollectionKey;
@@ -3109,7 +3109,7 @@ const caerifyCaupai = (data: Array<{ id: string; gurmukhi: string; transliterati
     code: line.id,
     gurmukhi: line.gurmukhi,
     translation: line.translation,
-    translationSource: 'Caupai Sahib',
+    translationSource: 'Chaupai Sahib',
     english: line.transliteration,
   }));
 
@@ -3123,8 +3123,8 @@ export const SHABAD_COLLECTIONS: Record<ShabadCollectionKey, ShabadCollection> =
     lines: DEFAULT_SHABAD_LINES,
     supportsAng: true,
   },
-  caupai: {
-    id: 'caupai',
+  chaupai: {
+    id: 'chaupai',
     title: 'Chaupai Sahib || ਚੌਪਈ ਸਾਹਿਬ',
     description: 'Chaupai Sahib path with text-only searching',
     lines: CAUPAI_SHABAD_LINES,
