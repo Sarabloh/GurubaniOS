@@ -5,11 +5,18 @@ import PresentationModeSwitcher from '@/components/common/PresentationModeSwitch
 import ShabadSearchPanel from './ShabadSearchPanel';
 import ShabadContentPanel from './ShabadContentPanel';
 import CustomSlideEditor from './CustomSlideEditor';
-import { DEFAULT_SHABAD_LINES } from '@/data/shabadLines';
+import { SHABAD_COLLECTIONS, ShabadCollectionKey, ShabadLine } from '@/data/shabadLines';
 
 type PresentationMode = 'shabad' | 'custom';
 
-const ControllerInterfaceClient = () => {
+interface ControllerInterfaceClientProps {
+  initialCollectionKey?: string;
+}
+
+const ControllerInterfaceClient = ({ initialCollectionKey = 'japji' }: ControllerInterfaceClientProps) => {
+  const collectionKey = (initialCollectionKey as ShabadCollectionKey) ?? 'japji';
+  const collection = SHABAD_COLLECTIONS[collectionKey] ?? SHABAD_COLLECTIONS.japji;
+
   const [isHydrated, setIsHydrated] = useState(false);
   const [presentationMode, setPresentationMode] = useState<PresentationMode>('shabad');
   const [selectedShabadId, setSelectedShabadId] = useState<string | null>(null);
@@ -17,10 +24,18 @@ const ControllerInterfaceClient = () => {
   const [isDisplaying, setIsDisplaying] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeTab, setActiveTab] = useState<'search' | 'content'>('search');
+  const [shabadLines, setShabadLines] = useState<ShabadLine[]>(collection.lines);
 
   useEffect(() => {
     setIsHydrated(true);
   }, []);
+
+  useEffect(() => {
+    setShabadLines(collection.lines);
+    setSelectedShabadId(null);
+    setCurrentLineIndex(0);
+    setIsDisplaying(false);
+  }, [collection.id]);
 
   if (!isHydrated) {
     return (
@@ -89,7 +104,7 @@ const ControllerInterfaceClient = () => {
             </div>
             <div className="h-4 w-px bg-border" />
             <span className="text-sm text-text-secondary">
-              Mode: {presentationMode === 'shabad' ? 'Gurbani Shabad' : 'Custom Slides'}
+              Collection: {collection.title} • Mode: {presentationMode === 'shabad' ? 'Gurbani Shabad' : 'Custom Slides'}
             </span>
           </div>
           <div className="text-xs text-text-secondary">
@@ -133,7 +148,8 @@ const ControllerInterfaceClient = () => {
               {presentationMode === 'shabad' ? (
                 <ShabadSearchPanel 
                   onShabadSelect={handleShabadSelect}
-                  shabadLines={DEFAULT_SHABAD_LINES}
+                  shabadLines={shabadLines}
+                  supportsAng={collection.supportsAng}
                 />
               ) : (
                 <CustomSlideEditor
@@ -148,6 +164,9 @@ const ControllerInterfaceClient = () => {
             <div className="h-[calc(100vh-80px)] bg-surface rounded-lg border border-border p-6">
               {presentationMode === 'shabad' ? (
                 <ShabadContentPanel
+                  collectionKey={collection.id}
+                  collectionTitle={collection.title}
+                  shabadLines={shabadLines}
                   shabadId={selectedShabadId}
                   initialLineIndex={currentLineIndex}
                   onLineChange={handleLineChange}

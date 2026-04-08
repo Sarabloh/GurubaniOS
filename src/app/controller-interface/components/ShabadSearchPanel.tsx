@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Icon from '@/components/ui/AppIcon';
 import { DEFAULT_SHABAD_LINES, ShabadLine } from '@/data/shabadLines';
 
@@ -18,16 +18,28 @@ interface SearchResult {
 interface ShabadSearchPanelProps {
   onShabadSelect: (shabadId: string, lineIndex?: number) => void;
   shabadLines?: ShabadLine[];
+  supportsAng?: boolean;
   className?: string;
 }
 
-const ShabadSearchPanel = ({ onShabadSelect, shabadLines = DEFAULT_SHABAD_LINES, className = '' }: ShabadSearchPanelProps) => {
-  const [searchType, setSearchType] = useState<'ang' | 'text'>('text');
+const ShabadSearchPanel = ({
+  onShabadSelect,
+  shabadLines = DEFAULT_SHABAD_LINES,
+  supportsAng = true,
+  className = '',
+}: ShabadSearchPanelProps) => {
+  const [searchType, setSearchType] = useState<'ang' | 'text'>(supportsAng ? 'text' : 'text');
   const [angNumber, setAngNumber] = useState('');
   const [searchText, setSearchText] = useState('');
   const [results, setResults] = useState<SearchResult[]>([]);
   const [isSearching, setIsSearching] = useState(false);
   const [selectedId, setSelectedId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!supportsAng && searchType === 'ang') {
+      setSearchType('text');
+    }
+  }, [supportsAng, searchType]);
 
   const mockResults: SearchResult[] = [
     {
@@ -118,6 +130,11 @@ const ShabadSearchPanel = ({ onShabadSelect, shabadLines = DEFAULT_SHABAD_LINES,
   };
 
   const handleSearch = () => {
+    if (searchType === 'ang' && !supportsAng) {
+      // Ang search not supported for this collection
+      return;
+    }
+
     setIsSearching(true);
     
     setTimeout(() => {
@@ -232,7 +249,7 @@ const ShabadSearchPanel = ({ onShabadSelect, shabadLines = DEFAULT_SHABAD_LINES,
             flex-1 flex items-center justify-center gap-2 px-4 py-2.5 rounded-md
             transition-smooth font-medium text-sm
             ${
-              searchType === 'text' ?'bg-primary text-primary-foreground shadow-elevated' :'text-text-secondary hover:text-foreground hover:bg-muted'
+              searchType === 'text' ? 'bg-primary text-primary-foreground shadow-elevated' : 'text-text-secondary hover:text-foreground hover:bg-muted'
             }
           `}
         >
@@ -240,12 +257,17 @@ const ShabadSearchPanel = ({ onShabadSelect, shabadLines = DEFAULT_SHABAD_LINES,
           <span>Text Search</span>
         </button>
         <button
-          onClick={() => setSearchType('ang')}
+          onClick={() => supportsAng && setSearchType('ang')}
+          disabled={!supportsAng}
           className={`
             flex-1 flex items-center justify-center gap-2 px-4 py-2.5 rounded-md
             transition-smooth font-medium text-sm
             ${
-              searchType === 'ang' ?'bg-primary text-primary-foreground shadow-elevated' :'text-text-secondary hover:text-foreground hover:bg-muted'
+              !supportsAng
+                ? 'bg-muted text-text-secondary cursor-not-allowed'
+                : searchType === 'ang'
+                ? 'bg-primary text-primary-foreground shadow-elevated'
+                : 'text-text-secondary hover:text-foreground hover:bg-muted'
             }
           `}
         >
@@ -291,7 +313,11 @@ const ShabadSearchPanel = ({ onShabadSelect, shabadLines = DEFAULT_SHABAD_LINES,
         <div className="flex items-center gap-2">
           <button
             onClick={handleSearch}
-            disabled={isSearching || (!angNumber && !searchText)}
+            disabled={
+              isSearching ||
+              (searchType === 'ang' && (!supportsAng || !angNumber)) ||
+              (searchType === 'text' && !searchText)
+            }
             className="flex-1 flex items-center justify-center gap-2 px-4 py-3 bg-primary text-primary-foreground rounded-lg hover:shadow-elevated transition-smooth disabled:opacity-40 disabled:cursor-not-allowed active:scale-[0.98] font-medium"
           >
             {isSearching ? (

@@ -2,9 +2,12 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Icon from '@/components/ui/AppIcon';
-import { DEFAULT_SHABAD_LINES, ShabadLine } from '@/data/shabadLines';
+import { ShabadLine } from '@/data/shabadLines';
 
 interface ShabadContentPanelProps {
+  collectionKey?: string;
+  collectionTitle?: string;
+  shabadLines: ShabadLine[];
   shabadId: string | null;
   initialLineIndex?: number;
   onLineChange?: (lineIndex: number) => void;
@@ -13,6 +16,9 @@ interface ShabadContentPanelProps {
 }
 
 const ShabadContentPanel = ({
+  collectionKey = 'japji',
+  collectionTitle = 'Jap Ji Sahib',
+  shabadLines,
   shabadId,
   initialLineIndex = 0,
   onLineChange,
@@ -20,6 +26,7 @@ const ShabadContentPanel = ({
   className = '',
 }: ShabadContentPanelProps) => {
   const [currentLineIndex, setCurrentLineIndex] = useState(initialLineIndex);
+  const [shabadLinesState, setShabadLinesState] = useState<ShabadLine[]>(shabadLines);
   // Sync currentLineIndex with parent when shabadId or initialLineIndex changes
   useEffect(() => {
     setCurrentLineIndex(initialLineIndex);
@@ -29,7 +36,6 @@ const ShabadContentPanel = ({
   const [editingLineId, setEditingLineId] = useState<string | null>(null);
   const [editedTranslation, setEditedTranslation] = useState('');
   const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false);
-  const [shabadLines, setShabadLines] = useState<ShabadLine[]>(DEFAULT_SHABAD_LINES);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   // Clean Gurmukhi text by removing orphaned combining marks
@@ -81,18 +87,25 @@ const ShabadContentPanel = ({
     return result;
   };
 
-  // Load translations from localStorage on mount
+  // Keep shabad lines in local state when collection changes
   useEffect(() => {
-    const savedTranslations = localStorage.getItem('japji-translations');
+    setShabadLinesState(shabadLines);
+    setHasUnsavedChanges(false);
+  }, [shabadLines]);
+
+  // Load translations from localStorage for selected collection on mount
+  useEffect(() => {
+    const storageKey = `${collectionKey}-translations`;
+    const savedTranslations = localStorage.getItem(storageKey);
     if (savedTranslations) {
       try {
         const parsed = JSON.parse(savedTranslations);
-        setShabadLines(parsed);
+        setShabadLinesState(parsed);
       } catch (error) {
         console.error('Failed to load saved translations:', error);
       }
     }
-  }, []);
+  }, [collectionKey]);
 
   // Sync display state to localStorage for projector
   useEffect(() => {
@@ -100,7 +113,7 @@ const ShabadContentPanel = ({
       const displayState = {
         mode: 'shabad',
         currentLineIndex: currentLineIndex,
-        lines: shabadLines.map(line => ({
+        lines: shabadLinesState.map(line => ({
           id: line.id,
           text: cleanGurmukhi(line.gurmukhi),
           english: line.english,
@@ -113,7 +126,7 @@ const ShabadContentPanel = ({
       // Clear display state when not displaying
       localStorage.removeItem('gurbani-display-state');
     }
-  }, [isDisplaying, currentLineIndex, shabadLines, shabadId]);
+  }, [isDisplaying, currentLineIndex, shabadLinesState, shabadId]);
 
   // Listen for projector navigation (storage event or polling)
   useEffect(() => {
@@ -150,7 +163,7 @@ const ShabadContentPanel = ({
   const handleLineClick = (index: number) => {
     if (isEditMode) {
       // In edit mode, clicking a line enters edit state
-      const line = shabadLines[index];
+      const line = shabadLinesState[index];
       setEditingLineId(line.id);
       setEditedTranslation(line.translation);
     }
@@ -167,7 +180,7 @@ const ShabadContentPanel = ({
   };
 
   const handleNext = () => {
-    if (currentLineIndex < shabadLines.length - 1) {
+    if (currentLineIndex < shabadLinesState.length - 1) {
       const newIndex = currentLineIndex + 1;
       setCurrentLineIndex(newIndex);
       onLineChange?.(newIndex);
@@ -205,13 +218,13 @@ const ShabadContentPanel = ({
   const handleSaveTranslation = () => {
     if (!editingLineId) return;
 
-    const updatedLines = shabadLines.map((line) =>
+    const updatedLines = shabadLinesState.map((line) =>
       line.id === editingLineId
         ? { ...line, translation: editedTranslation }
         : line
     );
 
-    setShabadLines(updatedLines);
+    setShabadLinesState(updatedLines);
     setEditingLineId(null);
     setEditedTranslation('');
     setHasUnsavedChanges(true);
@@ -223,13 +236,14 @@ const ShabadContentPanel = ({
   };
 
   const handleSaveAllChanges = () => {
-    localStorage.setItem('japji-translations', JSON.stringify(shabadLines));
+    const storageKey = `${collectionKey}-translations`;
+    localStorage.setItem(storageKey, JSON.stringify(shabadLinesState));
     setHasUnsavedChanges(false);
     alert('Translations saved successfully!');
   };
 
   const handleExportTranslations = () => {
-    const dataStr = JSON.stringify(shabadLines, null, 2);
+    const dataStr = JSON.stringify(shabadLinesState, null, 2);
     const dataBlob = new Blob([dataStr], { type: 'application/json' });
     const url = URL.createObjectURL(dataBlob);
     const link = document.createElement('a');
@@ -270,7 +284,7 @@ const ShabadContentPanel = ({
           return;
         }
 
-        setShabadLines(imported);
+        setShabadLinesState(imported);
         setHasUnsavedChanges(true);
         alert(`Successfully imported ${imported.length} translations!`);
       } catch (error) {
@@ -288,8 +302,8 @@ const ShabadContentPanel = ({
 
   const handleResetTranslations = () => {
     if (confirm('Are you sure you want to reset all translations to default? This cannot be undone.')) {
-      setShabadLines(DEFAULT_SHABAD_LINES);
-      localStorage.removeItem('japji-translations');
+      setShabadLinesState(shabadLines);
+      localStorage.removeItem(`${collectionKey}-translations`);
       setHasUnsavedChanges(false);
       alert('Translations reset to default successfully!');
     }
@@ -307,27 +321,23 @@ const ShabadContentPanel = ({
     );
   }
 
-  const previousLine = currentLineIndex > 0 ? shabadLines[currentLineIndex - 1] : null;
-  const currentLine = shabadLines[currentLineIndex];
-  const nextLine = currentLineIndex < shabadLines.length - 1 ? shabadLines[currentLineIndex + 1] : null;
+  const previousLine = currentLineIndex > 0 ? shabadLinesState[currentLineIndex - 1] : null;
+  const currentLine = shabadLinesState[currentLineIndex];
+  const nextLine = currentLineIndex < shabadLinesState.length - 1 ? shabadLinesState[currentLineIndex + 1] : null;
 
   return (
-    <div className={`flex flex-col h-full space-y-2 ${className}`}>
+    <div className={`flex flex-col h-full space-y-3 ${className}`}>
       {/* Translation Management Controls */}
       <div className="flex items-center justify-between p-4 bg-surface rounded-lg border border-border">
         <div className="flex items-center gap-2">
           <button
             onClick={() => setIsEditMode(!isEditMode)}
-            className={`
-              flex items-center gap-2 px-4 py-2.5 rounded-lg
-              transition-smooth font-medium text-sm
-              active:scale-[0.98]
-              ${
-                isEditMode
-                  ? 'bg-primary text-primary-foreground shadow-elevated'
-                  : 'bg-muted text-text-secondary hover:text-foreground hover:bg-muted'
-              }
-            `}
+            className={
+              `flex items-center gap-2 px-4 py-2.5 rounded-lg transition-smooth font-medium text-sm active:scale-[0.98] ` +
+              (isEditMode
+                ? 'bg-primary text-primary-foreground shadow-elevated'
+                : 'bg-muted text-text-secondary hover:text-foreground hover:bg-muted')
+            }
           >
             <Icon name={isEditMode ? 'PencilSquareIcon' : 'PencilIcon'} size={20} />
             <span>{isEditMode ? 'Editing Mode' : 'Edit Translations'}</span>

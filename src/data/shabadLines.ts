@@ -1,3 +1,5 @@
+import CAUPAI_SHABAD_DATA from './CaupaiSaheb.json';
+
 export interface ShabadLine {
   id: string;
   code: string;
@@ -6,6 +8,16 @@ export interface ShabadLine {
   translationSource?: string;
   Ang?: string;
   english?: string;
+}
+
+export type ShabadCollectionKey = 'japji' | 'caupai';
+
+export interface ShabadCollection {
+  id: ShabadCollectionKey;
+  title: string;
+  description: string;
+  lines: ShabadLine[];
+  supportsAng: boolean;
 }
 
 export const DEFAULT_SHABAD_LINES: ShabadLine[] = [{
@@ -3090,3 +3102,32 @@ export const DEFAULT_SHABAD_LINES: ShabadLine[] = [{
     "english": "Naanak te mukh ujale ketee chhutee naali ||1||"
   }
 ];
+
+const caerifyCaupai = (data: Array<{ id: string; gurmukhi: string; transliteration: string; translation: string }>): ShabadLine[] =>
+  data.map((line) => ({
+    id: line.id,
+    code: line.id,
+    gurmukhi: line.gurmukhi,
+    translation: line.translation,
+    translationSource: 'Caupai Sahib',
+    english: line.transliteration,
+  }));
+
+export const CAUPAI_SHABAD_LINES: ShabadLine[] = caerifyCaupai(CAUPAI_SHABAD_DATA);
+
+export const SHABAD_COLLECTIONS: Record<ShabadCollectionKey, ShabadCollection> = {
+  japji: {
+    id: 'japji',
+    title: 'Jap Ji Sahib || ਜਪੁਜੀ ਸਾਹਿਬ',
+    description: 'Jap Ji Sahib path with Ang-based indexing and text based searching and full translation',
+    lines: DEFAULT_SHABAD_LINES,
+    supportsAng: true,
+  },
+  caupai: {
+    id: 'caupai',
+    title: 'Caupai Sahib || ਚੌਪਈ ਸਾਹਿਬ',
+    description: 'Caupai Sahib path with text-only searching',
+    lines: CAUPAI_SHABAD_LINES,
+    supportsAng: false,
+  },
+};

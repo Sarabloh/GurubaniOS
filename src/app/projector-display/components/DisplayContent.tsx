@@ -170,14 +170,13 @@ const DisplayContent = ({ className = '' }: DisplayContentProps) => {
   }
 
   // Shabad Mode
-  const currentLine = displayState.lines[displayState.currentLineIndex];
+  const safeLineIndex = Math.max(0, Math.min(displayState.currentLineIndex, displayState.lines.length - 1));
+  const currentLine = displayState.lines?.[safeLineIndex] ?? { id: 'empty', text: 'No content available', english: '', translation: '', Ang: '' };
   const previousLine =
-    displayState.currentLineIndex > 0
-      ? displayState.lines[displayState.currentLineIndex - 1]
-      : null;
+    safeLineIndex > 0 ? displayState.lines?.[safeLineIndex - 1] : null;
   const nextLine =
-    displayState.currentLineIndex < displayState.lines.length - 1
-      ? displayState.lines[displayState.currentLineIndex + 1]
+    safeLineIndex < (displayState.lines?.length ?? 0) - 1
+      ? displayState.lines?.[safeLineIndex + 1]
       : null;
 
   return (
@@ -225,7 +224,8 @@ const DisplayContent = ({ className = '' }: DisplayContentProps) => {
         {/* Line Counter */}
         <div className="text-center mt-8">
           <p className="text-white/40 text-lg">
-            Line {displayState.currentLineIndex + 1} of {displayState.lines.length} - Ang {currentLine.Ang || 'N/A'}
+            Line {displayState.currentLineIndex + 1} of {displayState.lines.length}
+            {currentLine.Ang ? ` • Ang ${currentLine.Ang}` : ''}
           </p>
         </div>
       </div>
