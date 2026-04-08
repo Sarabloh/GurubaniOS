@@ -3119,14 +3119,14 @@ export const SHABAD_COLLECTIONS: Record<ShabadCollectionKey, ShabadCollection> =
   japji: {
     id: 'japji',
     title: 'Jap Ji Sahib || ਜਪੁਜੀ ਸਾਹਿਬ',
-    description: 'Jap Ji Sahib path with Ang-based indexing and text based searching and full translation',
+    description: 'Jap Ji Sahib with Ang-based indexing, text search, and full translation',
     lines: DEFAULT_SHABAD_LINES,
     supportsAng: true,
   },
   chaupai: {
     id: 'chaupai',
     title: 'Chaupai Sahib || ਚੌਪਈ ਸਾਹਿਬ',
-    description: 'Chaupai Sahib path with text-only searching',
+    description: 'Chaupai Sahib with Text search ',
     lines: CAUPAI_SHABAD_LINES,
     supportsAng: false,
   },

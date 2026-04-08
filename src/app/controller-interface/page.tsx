@@ -28,29 +28,31 @@ export default function ControllerInterfacePage({
             <p className="text-base text-slate-300">Pick a Gurbani source to load in the controller interface.</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:auto-rows-fr gap-6 mt-8">
             {items.map((item) => (
               <Link
                 key={item.id}
                 href={`/controller-interface?collection=${item.id}`}
-                className="group block p-8 rounded-2xl border border-white/10 bg-gradient-to-br from-slate-800 via-slate-900 to-slate-800 shadow-lg hover:shadow-2xl transition-all duration-300"
+                className="group block h-full p-8 rounded-2xl border border-white/10 bg-gradient-to-br from-slate-800 via-slate-900 to-slate-800 shadow-lg hover:shadow-2xl transition-all duration-300"
               >
-                <div className="flex items-center justify-between mb-4">
-                  <h2 className="text-3xl font-bold text-white">{item.title}</h2>
-                  <span className="text-xs font-semibold uppercase tracking-widehw r px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-200">
-                    {item.supportsAng ? 'Ang' : 'Text'}
+                <div className="h-full flex flex-col">
+                  <div className="flex items-center justify-between mb-4">
+                    <h2 className="text-3xl font-bold text-white">{item.title}</h2>
+                    <span className="text-xs font-semibold uppercase tracking-wide px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-200">
+                      {item.supportsAng ? 'Ang' : 'Text'}
+                    </span>
+                  </div>
+                  <p className="text-slate-300 leading-relaxed min-h-[72px]">{item.description}</p>
+                  <span className="mt-auto pt-4 text-sm font-medium text-slate-200 underline decoration-emerald-400/40 group-hover:text-white">
+                    Open {item.title}
                   </span>
                 </div>
-                <p className="text-slate-300 leading-relaxed mb-4">{item.description}</p>
-                <span className="text-sm font-medium text-slate-200 underline decoration-emerald-400/40 group-hover:text-white">
-                  Open {item.title}
-                </span>
               </Link>
             ))}
           </div>
 
           <p className="text-sm text-slate-300 mt-6">
-            Tip: choose one to go ahead <Link href="/" className="underline text-slate-100">/</Link>.
+            Tip: Choose one to continue <Link href="/" className="underline text-slate-100"></Link>.
           </p>
         </div>
       </div>
